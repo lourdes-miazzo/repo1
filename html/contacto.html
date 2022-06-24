@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>contacto.lourdes miazzo.</title>
+	<link rel="icon" type="image/svg" href="../assets/icono/minifavicon.svg">
+	<link rel="stylesheet" type="text/css" href="../css/style.css">
+</head>
+<body>
+	<nav>
+		<div class="listagral__nav--cambios">
+			<ul>
+				<li>
+					<a href="bio.html">bio.</a>
+				</li>
+				<li>
+					<a href="obras.html">obras.</a>
+				</li>
+				<li>
+					<a href="textos.html">textos.</a>
+				</li>
+			</ul>
+		</div>
+		<a href="../index.html">
+			<img src="../assets/icono/icono1.png" alt="icono de Lourdes Miazzo">
+			<ol>
+				<li>
+					<a href="#contacto">contacto.</a>
+				</li>
+				<li>
+					<a href="#taller">conocer el taller.</a>
+				</li>
+				<li>
+					<a href="#redes">redes sociales.</a>
+				</li>
+			</ol>
+	</nav>
+	<main>
+		<div class="contact__bg--1">
+			<a id="contacto">
+				<h2>contacto.</h2>
+			</a>
+			<section>
+				<div class="form__content--flex">
+					<form action="">
+						<fieldset class="contact__form--flex">
+							<label for="nombre">Nombre y Apellido</label>
+							<br>
+							<input type="text" class="color" placeholder="Nombre y Apellido" id="nombre" required>
+							<br>
+							<label for="email">Email</label>
+							<br>
+							<input type="email" class="color" placeholder="email@email.com" id="email" required>
+							<br>
+							<label for="mensaje">Mensaje</label>
+							<br>
+							<input type="textarea" class="color" id="mensaje" placeholder="Escribe tu mensaje aquí"
+								maxlength="2000" required>
+							<br>
+							<label for="newsletter">Deseo recibir el newsletter</label>
+							<input type="checkbox" class="color" id="newsletter">
+							<br>
+							<label for="region">Región</label>
+							<select name="" class="color" id="region">
+								<option value="Argentina">Argentina</option>
+								<option value="Latinoamerica">Latinoamerica</option>
+								<option value="Resto del mundo">Resto del mundo</option>
+							</select>
+							<br>
+							<input type="reset" class="color" value="Cancelar">
+							<input type="submit" class="color" value="Enviar">
+							<!-- quitar checkbox y menu desplegable luego de los desafios-->
+						</fieldset>
+					</form>
+					<img src="../assets/imagenes/contacto/taller.jpg" class="contact__img--flex"
+						alt="sector del taller donde se ordenan las pinturas según su tonalidad">
+				</div>
+			</section>
+			<div class="map__bg--2">
+				<section>
+					<a id="taller">
+						<h2>conocer el taller.</h2>
+					</a>
+					<div class="map__content--flex"></div>
+					<iframe
+						src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3405.151719565589!2d-64.1787757!3d-31.4099457!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x943298766adf3823%3A0xe5c0bd1df5d0d068!2sOncativo%20190%2C%20X5000FDD%20C%C3%B3rdoba!5e0!3m2!1sen!2sar!4v1655658209545!5m2!1sen!2sar"
+						style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+						class="map__map--flex"></iframe>
+					<img src="../assets/imagenes/contacto/taller2.jpg" class="map__img--flex"
+						alt="obra en proceso y en primer plano potes con pintura y pinceles">
+			</div>
+			</section>
+		</div>
+	</main>
+	<div class="pie__all--bglight">
+		<footer>
+			<a id="redes">
+				<h2>redes sociales.</h2>
+			</a>
+			<br>
+			<a href="https://www.instagram.com/lourdesmiazzo/?hl=en" target="blank">
+				<img src="../assets/icono/instagram1.png" alt="icono de instagram version gráfica"
+					class="pie__icon--size">
+			</a>
+			<a href="https://www.facebook1.com/analourdes.miazzo/" target="blank">
+				<img src="../assets/icono/facebook1.png" alt="icono de facebook version gráfica"
+					class="pie__icon--size">
+			</a>
+		</footer>
+	</div>
+	<!-- quitar el footer desp del desafio, que solo quede en contacto -->
+</body>
+</html>
