@@ -44,6 +44,7 @@ p{
   padding: 1rem 15rem 1.5rem 1.7rem;
 }
 
+
 @keyframes nav-animated{
   0%{background: none; width:100vw;}
   2%{background: linear-gradient(150deg, rgba(55,55,55,0.5) 0%, rgba(87,87,87,0.5) 3%, rgba(228,228,228,0.5) 100%); width:100vw;}
@@ -103,9 +104,11 @@ p{
 
 .animated{
   animation-name: nav-animated;
+  transition-property: background-color;
   animation-timing-function: linear;
   animation-duration: 2.5s;
 }
+
 
                               /* -------- MOBILE FIRST-------- */
 
@@ -455,6 +458,7 @@ form{
 @media (min-width: 768px){
 
                       /*========CAMBIOS GRALES 768px========== */
+                      
 
   nav{
     align-items: flex-start;
@@ -649,7 +653,7 @@ form{
 
 
 .listagral__nav--cambios{
-    align-self: flex-end;
+    align-self: flex-end
 }
   
       nav img{
@@ -848,3 +852,5 @@ form{
 
 }  /* cierre de media queeries 1024 no sacar */
 
+
+ 
