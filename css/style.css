@@ -372,6 +372,24 @@ h2{
   color: rgb(216, 216, 216);
 }
 
+.gal__img--2022 .boton__galeria--cualidades,
+.gal__img--2021 .boton__galeria--cualidades,
+.gal__img--2020 .boton__galeria--cualidades,
+.gal__img--2019 .boton__galeria--cualidades,
+.gal__img--2018 .boton__galeria--cualidades,
+.gal__img--2017 .boton__galeria--cualidades,
+.gal__img--2016 .boton__galeria--cualidades,
+.gal__video--all .boton__galeria--cualidades{
+  font-family: oswald, san serif;
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 0.9rem;
+  color: rgb(55, 52, 53);
+  align-self: flex-end;
+  justify-content: flex-end;
+}
+
+
 
 
                           /* =============TEXTO================ */
@@ -697,7 +715,7 @@ form{
 
         nav ul li a{
           font-size: 1.5rem;
-          margin-left: 2rem;
+          margin-left: 1rem;
         }
 
           nav .especial{
@@ -718,7 +736,7 @@ h1{
 .listagral__nav--cambios{
   position: relative;
   right: -39rem;
-}
+} 
 
 footer h2{
   padding-top: 1.5rem;
