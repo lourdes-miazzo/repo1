@@ -372,21 +372,20 @@ h2{
   color: rgb(216, 216, 216);
 }
 
-.gal__img--2022 .boton__galeria--cualidades,
-.gal__img--2021 .boton__galeria--cualidades,
-.gal__img--2020 .boton__galeria--cualidades,
-.gal__img--2019 .boton__galeria--cualidades,
-.gal__img--2018 .boton__galeria--cualidades,
-.gal__img--2017 .boton__galeria--cualidades,
-.gal__img--2016 .boton__galeria--cualidades,
-.gal__video--all .boton__galeria--cualidades{
+.veintedos__all--bg1 .boton__galeria--cualidades,
+.veinteuno__all--bg2 .boton__galeria--cualidades,
+.veinte__all--bg3 .boton__galeria--cualidades,
+.dieznueve__all--bg4 .boton__galeria--cualidades,
+.diezocho__all--bg5 .boton__galeria--cualidades,
+.diezsiete__all--bg6 .boton__galeria--cualidades,
+.diezseis__all--bg7 .boton__galeria--cualidades,
+.video__all--bg8 .boton__galeria--cualidades{
   font-family: oswald, san serif;
   text-decoration: none;
   font-weight: 400;
   font-size: 0.9rem;
   color: rgb(55, 52, 53);
-  align-self: flex-end;
-  justify-content: flex-end;
+  margin-left: 1rem;
 }
 
 
@@ -611,7 +610,6 @@ footer h2{
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
-  align-self: flex-end;
   align-items: center;
 }
 
@@ -620,6 +618,7 @@ footer h2{
   width: 41vw;
   height: auto;
   margin: 1.5rem;
+  margin-bottom: 2rem;
 }
 .video{
   width: 35vw;
@@ -629,6 +628,19 @@ footer h2{
 h2{
   padding-top: 1rem;
   font-size: 2rem;
+}
+
+.veintedos__all--bg1 .boton__galeria--cualidades,
+.veinteuno__all--bg2 .boton__galeria--cualidades,
+.veinte__all--bg3 .boton__galeria--cualidades,
+.dieznueve__all--bg4 .boton__galeria--cualidades,
+.diezocho__all--bg5 .boton__galeria--cualidades,
+.diezsiete__all--bg6 .boton__galeria--cualidades,
+.diezseis__all--bg7 .boton__galeria--cualidades,
+.video__all--bg8 .boton__galeria--cualidades{
+  font-weight: 600;
+  font-size: 1.2rem;
+  margin-left: 1.2rem;
 }
 
                      /* ======animacion 760px========= */
@@ -837,6 +849,17 @@ align-content: center;
   width: 70vw;
   height: 85vh;
   margin: 3rem 2rem;
+}
+
+.veintedos__all--bg1 .boton__galeria--cualidades,
+.veinteuno__all--bg2 .boton__galeria--cualidades,
+.veinte__all--bg3 .boton__galeria--cualidades,
+.dieznueve__all--bg4 .boton__galeria--cualidades,
+.diezocho__all--bg5 .boton__galeria--cualidades,
+.diezsiete__all--bg6 .boton__galeria--cualidades,
+.diezseis__all--bg7 .boton__galeria--cualidades,
+.video__all--bg8 .boton__galeria--cualidades{
+  font-size: 1.3rem;
 }
 
               /* =======animaciones1024px======== */
