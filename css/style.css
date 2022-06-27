@@ -392,8 +392,9 @@ h2{
   margin-bottom: 2rem;
 }
 
-
-
+.boton__galeria--cualidades:hover{
+  cursor: pointer;
+}
 
                           /* =============TEXTO================ */
 
@@ -642,7 +643,6 @@ h2{
 .diezsiete__all--bg6 .boton__galeria--cualidades,
 .diezseis__all--bg7 .boton__galeria--cualidades,
 .video__all--bg8 .boton__galeria--cualidades{
-  font-weight: 600;
   font-size: 1.2rem;
   margin-left: 1.2rem;
 }
