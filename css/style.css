@@ -717,7 +717,7 @@ h1{
 
 .listagral__nav--cambios{
   position: relative;
-  left: 38rem;
+  right: -39rem;
 }
 
 footer h2{
@@ -890,5 +890,19 @@ form{
 
 }  /* cierre de media queeries 1024 no sacar */
 
+@media (min-width: 1200px){
+  
+.listagral__nav--cambios{
+  position: relative;
+  right: -50rem;
+}
+}
 
+@media (min-width: 1300px){
+  
+  .listagral__nav--cambios{
+    position: relative;
+    right: -58rem;
+  }
+  }
  
