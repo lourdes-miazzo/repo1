@@ -801,13 +801,11 @@ footer h2{
 .gal__img--2018,
 .gal__img--2017,
 .gal__img--2016{
-  justify-content: center;
-  align-content: center;
+justify-content: space-evenly;
+align-content: center;
 }
 
 .gal__video--all{
-  grid-template-columns: 100vw;
-  grid-template-rows: auto;
   justify-content: center;
   align-items: center;
 }
@@ -815,10 +813,8 @@ footer h2{
 .imagenes-left,
 .imagenes-center,
 .imagenes-right{
-  width: 30vw;
-  margin: 1.3rem 1.1rem;
+  width: 28vw;
 }
-
 .video{
   width: 70vw;
   height: 85vh;
@@ -890,19 +886,3 @@ form{
 
 }  /* cierre de media queeries 1024 no sacar */
 
-@media (min-width: 1200px){
-  
-.listagral__nav--cambios{
-  position: relative;
-  right: -50rem;
-}
-}
-
-@media (min-width: 1300px){
-  
-  .listagral__nav--cambios{
-    position: relative;
-    right: -58rem;
-  }
-  }
- 
