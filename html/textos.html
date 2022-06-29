@@ -3,61 +3,72 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- Bootstrap CSS -->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+		integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 	<title>textos.lourdes miazzo.</title>
 	<link rel="icon" type="image/svg" href="..assets//icono/minifavicon.svg">
-	<link rel="stylesheet" type="text/css" href="../css/style.css">
+	<!--mi css va desp del css de bootstrap-->
+	<link rel="stylesheet" type="text/css" href="../css/style2.css">
 </head>
 <body>
-	<nav class="animated flex__nav--left">
-		<div class="listagral__nav--cambios">
-			<ul>
-				<li>
-					<a href="bio.html">bio.</a>
-				</li>
-				<li>
-					<a href="obras.html">obras.</a>
-				</li>
-				<li class="especial">
-					textos.
-				</li>
-				<li>
-					<a href="contacto.html">contacto.</a>
-				</li>
-			</ul>
+	<!-- inicia nav -->
+	<nav class="navbar navbar-expand-lg navbar-light bg-light animated">
+		<div class="container-fluid">
+			<a class="navbar-brand" href="../index.html"><img src="../assets/icono/icono1.png"
+					alt="icono de Lourdes Miazzo"></a>
+			<button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+				data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+				aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+				<ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+					<li class="nav-item">
+						<a class="nav-link dark" href="bio.html">bio.</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link dark" href="obras.html">obras.</a>
+					</li>
+					<li class="nav-item dropdown especial">
+						<a class="nav-link dropdown-toggle dark" id="navbarDropdown" role="button"
+							data-bs-toggle="dropdown" aria-expanded="false">
+							textos.
+						</a>
+						<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+							<li><a class="dropdown-item dark" href="#textos de">de la artista.</a></li>
+							<li><a class="dropdown-item dark" href="#textos sobre">sobre la obra.</a></li>
+						</ul>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link dark" href="contacto.html">contacto.</a>
+					</li>
+				</ul>
+			</div>
 		</div>
-		<a href="../index.html">
-			<img src="../assets/icono/icono1.png" alt="icono de Lourdes Miazzo">
-		</a>
-		<ol>
-			<li>
-				<a href="#textos de">de la artista.</a>
-			</li>
-			<li>
-				<a href="#textos sobre">sobre la obra.</a>
-			</li>
-		</ol>
 	</nav>
+	<!-- fin nav -->
 	<main>
 		<section class="text__propio--all">
 			<a id="textos de">
 				<h2 class="paddingTop">de la artista.</h2>
 			</a>
-			    <h3>programación pictórica.</h3>
-			    <p>Las obras realizadas son la expresión de experiencias procesuales, cuya lógica esta guiada por
-				    estrategias de racionalización del quehacer creativo.
-				    Se acomodan módulos en una estructura reticular y siguiendo diferentes reglas establecidas a priori se
-				    modifican formas y colores. En su libro Diseñar Programas (1963) Karl Gerstner dice que “un ornamento es
-				    un programa hecho imagen”, para expresar que la obra se puede generar a partir de ciertos principios de
-				    lógica y orden.
-				    Si dejamos de lado los aspectos procedimentales y nos enfocamos puramente en lo visual nos encontramos
-				    frente a una superficie congestionada de información de volumen y color, con una retícula que no encaja
-				    con respecto a los límites del bastidor; donde la repetición y la variabilidad dominan la atención, por
-				    lo que la obra puede asociarse a lo que Omar Calabrese denomina Neobarroco (1987) es decir una
-				    inclinación general por lo inestable, el exceso, la mutabilidad, los ritmos, que aparece en la
-				    contemporaneidad e invade desde la cuestiones artístico-literarias hasta las científicas. Ya que cada
-				    ámbito está sumergido en un ámbito mas amplio que es la cultura, por lo tanto, embebidos todos por los
-				    mismos acontecimientos y tendiendo hacia la valorización de intereses comunes.
-			    </p>
+			<h3>programación pictórica.</h3>
+			<p>Las obras realizadas son la expresión de experiencias procesuales, cuya lógica esta guiada por
+				estrategias de racionalización del quehacer creativo.
+				Se acomodan módulos en una estructura reticular y siguiendo diferentes reglas establecidas a priori se
+				modifican formas y colores. En su libro Diseñar Programas (1963) Karl Gerstner dice que “un ornamento es
+				un programa hecho imagen”, para expresar que la obra se puede generar a partir de ciertos principios de
+				lógica y orden.
+				Si dejamos de lado los aspectos procedimentales y nos enfocamos puramente en lo visual nos encontramos
+				frente a una superficie congestionada de información de volumen y color, con una retícula que no encaja
+				con respecto a los límites del bastidor; donde la repetición y la variabilidad dominan la atención, por
+				lo que la obra puede asociarse a lo que Omar Calabrese denomina Neobarroco (1987) es decir una
+				inclinación general por lo inestable, el exceso, la mutabilidad, los ritmos, que aparece en la
+				contemporaneidad e invade desde la cuestiones artístico-literarias hasta las científicas. Ya que cada
+				ámbito está sumergido en un ámbito mas amplio que es la cultura, por lo tanto, embebidos todos por los
+				mismos acontecimientos y tendiendo hacia la valorización de intereses comunes.
+			</p>
 		</section>
 		<section class="text__otros--all">
 			<a id="textos sobre">
@@ -112,59 +123,59 @@
 					transición como el movimiento constante, el
 					cambio de un estado a otro, el paso de una forma a la siguiente, es posible pensar la labor
 					artística comportándose de una manera similar”, responde Miazzo.< Al pensar o al realizar obras,
-					empiezan a fluir ideas que se desprenden y se asocian directamente con lo anterior y que, a su
-					vez, permiten abrir nuevas líneas de investigación que se concatenan con las que vendrán,
-					explica la joven artista. Y agrega que sucede algo parecido en la etapa de difusión de la
-					producción. “Transitar por los espacios de exposición nos conecta con nuevas personas que nos
-					abren a otros espacios y posibilidades, y también el intercambio que se da naturalmente en estos
-					contextos nos lleva a darle un nuevo a giro a nuestra creación”, señala. <span
-					class="subt__text--block">Trespilares</span>
-					Lourdes erige el estudio de la forma y el color sobre tres pilares: “punto de origen, forma de
-					crecimiento y grado de variabilidad matiz-saturación”.
+						empiezan a fluir ideas que se desprenden y se asocian directamente con lo anterior y que, a su
+						vez, permiten abrir nuevas líneas de investigación que se concatenan con las que vendrán,
+						explica la joven artista. Y agrega que sucede algo parecido en la etapa de difusión de la
+						producción. “Transitar por los espacios de exposición nos conecta con nuevas personas que nos
+						abren a otros espacios y posibilidades, y también el intercambio que se da naturalmente en estos
+						contextos nos lleva a darle un nuevo a giro a nuestra creación”, señala. <span
+						class="subt__text--block">Trespilares</span>
+						Lourdes erige el estudio de la forma y el color sobre tres pilares: “punto de origen, forma de
+						crecimiento y grado de variabilidad matiz-saturación”.
 
-					Con estas “tres instrucciones tan simples”, genera resultados estéticos interesantes y a la vez
-					sorpresivos al momento de producirlos. “También creo que este sistema de leyes que puede parecer
-					restrictivo opera de manera totalmente opuesto, porque la obra queda librada a la combinación de
-					estos tres postulados elegidos y porque luego ya no puedo decidir, sino que acompaño el proceso
-					de algo que crece independientemente de mi influencia”.
+						Con estas “tres instrucciones tan simples”, genera resultados estéticos interesantes y a la vez
+						sorpresivos al momento de producirlos. “También creo que este sistema de leyes que puede parecer
+						restrictivo opera de manera totalmente opuesto, porque la obra queda librada a la combinación de
+						estos tres postulados elegidos y porque luego ya no puedo decidir, sino que acompaño el proceso
+						de algo que crece independientemente de mi influencia”.
 
-					Hay una filiación de su práctica con la obra del artista cordobés Eduardo Moisset de Espanés:
-					“Podría quedarme horas admirando su obra y analizando los pequeños detalles que se van
-					sucediendo dentro de esta, y allí encuentro una influencia en lo que busco provocar en el
-					espectador cuando ve mis trabajos”.
+						Hay una filiación de su práctica con la obra del artista cordobés Eduardo Moisset de Espanés:
+						“Podría quedarme horas admirando su obra y analizando los pequeños detalles que se van
+						sucediendo dentro de esta, y allí encuentro una influencia en lo que busco provocar en el
+						espectador cuando ve mis trabajos”.
 
-					<span class="subt__text--block">Mecanismo revelado</span>
-					De este programa estético ligado a la abstracción geométrica y a la geometría generativa le
-					atrae la complejidad de los resultados. “En este tipo de creaciones, el sistema que las genera
-					queda expuesto y es su tema”, señala.
+						<span class="subt__text--block">Mecanismo revelado</span>
+						De este programa estético ligado a la abstracción geométrica y a la geometría generativa le
+						atrae la complejidad de los resultados. “En este tipo de creaciones, el sistema que las genera
+						queda expuesto y es su tema”, señala.
 
-					Y luego compara: “Todos los artistas siguen una serie de pasos para producir sus obras, pero en
-					ellos este proceso queda encubierto al terminarla».
+						Y luego compara: “Todos los artistas siguen una serie de pasos para producir sus obras, pero en
+						ellos este proceso queda encubierto al terminarla».
 
-					Para Lourdes, en todas sus obras se encuentra presente la idea de laberinto, “pensándolo como lo
-					hace Omar Calabrese en su libro La era neobarroca, como una representación de aquello que es
-					complejo, pero que en el fondo
-					tiene un orden, aunque se encuentre oculto o sea dificultoso de descubrir”.
+						Para Lourdes, en todas sus obras se encuentra presente la idea de laberinto, “pensándolo como lo
+						hace Omar Calabrese en su libro La era neobarroca, como una representación de aquello que es
+						complejo, pero que en el fondo
+						tiene un orden, aunque se encuentre oculto o sea dificultoso de descubrir”.
 
-					Y donde sucede que, “al tener una visión global, primero parece que nos perdemos en el caos,
-					pero luego de usar la inteligencia y la agudeza podemos reencontramos con ese orden”.
+						Y donde sucede que, “al tener una visión global, primero parece que nos perdemos en el caos,
+						pero luego de usar la inteligencia y la agudeza podemos reencontramos con ese orden”.
 
-					Volumen y el trabajo con papel aportan a sus trabajos cualidades extras de complejidad: “El
-					volumen trae consigo la aparición de sombras y, con ellas, la modificación de los colores en
-					parte de las piezas sobre las que se proyecta”.
+						Volumen y el trabajo con papel aportan a sus trabajos cualidades extras de complejidad: “El
+						volumen trae consigo la aparición de sombras y, con ellas, la modificación de los colores en
+						parte de las piezas sobre las que se proyecta”.
 
-					Mientras, el uso de la cartulina, deduce, le otorga plasticidad y resistencia, lo que permite
-					jugar con muchas formas diferentes y generar cierta sensación de inestabilidad en los límites de
-					la obra.
+						Mientras, el uso de la cartulina, deduce, le otorga plasticidad y resistencia, lo que permite
+						jugar con muchas formas diferentes y generar cierta sensación de inestabilidad en los límites de
+						la obra.
 
-					<span class="subt__text--block">El lugar indicado</span>
-					Exponer en el ciclo “Visuales de la Famaf” es particularmente especial. “Aquí se dictan carreras
-					que tienen formas de trabajar que fusionan criterios sistemáticos y ordenados con aquellos de
-					tipo experimental e indagatorio, lo que yo realizo, pero en un plano totalmente diferente,
-					como es el artístico”.
+						<span class="subt__text--block">El lugar indicado</span>
+						Exponer en el ciclo “Visuales de la Famaf” es particularmente especial. “Aquí se dictan carreras
+						que tienen formas de trabajar que fusionan criterios sistemáticos y ordenados con aquellos de
+						tipo experimental e indagatorio, lo que yo realizo, pero en un plano totalmente diferente,
+						como es el artístico”.
 
-					En esa senda, descubre que el público responde asombrado ante una manifestación estética que
-					tiene un correlato con sus intereses.
+						En esa senda, descubre que el público responde asombrado ante una manifestación estética que
+						tiene un correlato con sus intereses.
 				</p>
 				<!-- transcribir el texto de Molas -->
 			</article>
@@ -197,5 +208,9 @@
 			</article>
 		</section>
 	</main>
+	<!-- Option 1: Bootstrap Bundle with Popper -->
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+		integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+		crossorigin="anonymous"></script>
 </body>
 </html>

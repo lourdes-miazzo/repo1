@@ -3,99 +3,93 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- Bootstrap CSS -->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+		integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 	<title>contacto.lourdes miazzo.</title>
 	<link rel="icon" type="image/svg" href="../assets/icono/minifavicon.svg">
-	<link rel="stylesheet" type="text/css" href="../css/style.css">
+	<!--mi css va desp del css de bootstrap-->
+	<link rel="stylesheet" type="text/css" href="../css/style2.css">
 </head>
 <body>
-	<nav class="animated flex__nav--left">
-		<div class="listagral__nav--cambios">
-			<ul>
-				<li>
-					<a href="bio.html">bio.</a>
-				</li>
-				<li>
-					<a href="obras.html">obras.</a>
-				</li>
-				<li>
-					<a href="textos.html">textos.</a>
-				</li>
-				<li class="especial">
-					contacto.
-				</li>
-			</ul>
+	<!-- inicia nav -->
+	<nav class="navbar navbar-expand-lg navbar-light bg-light animated">
+		<div class="container-fluid">
+			<a class="navbar-brand" href="../index.html"><img src="../assets/icono/icono1.png"
+					alt="icono de Lourdes Miazzo"></a>
+			<button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+				data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+				aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+				<ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+					<li class="nav-item">
+						<a class="nav-link dark" href="bio.html">bio.</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link dark" href="obras.html">obras.</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link dark" href="textos.html">textos.</a>
+					</li>
+					<li class="nav-item dropdown especial">
+						<a class="nav-link dropdown-toggle dark" id="navbarDropdown" role="button"
+							data-bs-toggle="dropdown" aria-expanded="false">
+							contacto.
+						</a>
+						<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+							<li><a class="dropdown-item dark" href="#contacto">contacto.</a></li>
+							<li><a class="dropdown-item dark" href="#taller">conocer el taller.</a></li>
+							<li><a class="dropdown-item dark" href="#redes">redes sociales.</a></li>
+						</ul>
+					</li>
+				</ul>
+			</div>
 		</div>
-		<a href="../index.html">
-			<img src="../assets/icono/icono1.png" alt="icono de Lourdes Miazzo">
-			<ol>
-				<li>
-					<a href="#contacto">contacto.</a>
-				</li>
-				<li>
-					<a href="#taller">conocer el taller.</a>
-				</li>
-				<li>
-					<a href="#redes">redes sociales.</a>
-				</li>
-			</ol>
 	</nav>
+	<!-- termina nav -->
 	<main>
 		<div class="contact__bg--1">
 			<a id="contacto">
 				<h2>contacto.</h2>
 			</a>
 			<section>
-				<div class="form__content--flex">
-					<form action="">
-						<fieldset class="contact__form--flex">
-							<label for="nombre">Nombre y Apellido</label>
-							<br>
-							<input type="text" class="color" id="nombre" required>
-							<br>
-							<label for="email">Email</label>
-							<br>
-							<input type="email" class="color" id="email" required>
-							<br>
-							<label for="mensaje">Mensaje</label>
-							<br>
-							<input type="textarea" class="color" id="mensaje" 
-								maxlength="2000" required>
-							<br>
-							<label for="newsletter">Deseo recibir el newsletter</label>
-							<input type="checkbox" class="color" id="newsletter">
-							<br>
-							<label for="region">Región</label>
-							<select name="" class="color" id="region">
-								<option value="Argentina">Argentina</option>
-								<option value="Latinoamerica">Latinoamerica</option>
-								<option value="Resto del mundo">Resto del mundo</option>
-							</select>
-							<br>
-							<div class="boton">
-							<input type="reset" class="color" value="Cancelar">
-							<input type="submit" class="color derecha" value="Enviar">
-						    </div>
-							<!-- quitar checkbox y menu desplegable luego de los desafios-->
+				<form class="d-flex">
+					<div class="form__content--flex">
+						<div class="mb-3">
+							<label for="nombre" class="form-label">Nombre y Apellido</label>
+							<input type="text" class="form-control" id="nombre" required>
+						</div>
+						<div class="mb-3">
+							<label for="exampleFormControlInput1" class="form-label">Email</label>
+							<input type="email" class="form-control" id="exampleFormControlInput1" required>
+						</div>
+						<div class="mb-3">
+							<label for="exampleFormControlTextarea1" class="form-label">Mensaje</label>
+							<textarea class="form-control" id="exampleFormControlTextarea1" rows="3"
+								required></textarea>
+						</div>
 						</fieldset>
-					</form>
-					<img src="../assets/imagenes/contacto/taller.jpg" class="contact__img--flex"
-						alt="sector del taller donde se ordenan las pinturas según su tonalidad">
-				</div>
-			</section>
-			<div class="map__bg--2">
-				<section>
-					<a id="taller">
-						<h2>conocer el taller.</h2>
-					</a>
-					<div class="map__content--flex"></div>
-					<iframe
-						src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3405.151719565589!2d-64.1787757!3d-31.4099457!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x943298766adf3823%3A0xe5c0bd1df5d0d068!2sOncativo%20190%2C%20X5000FDD%20C%C3%B3rdoba!5e0!3m2!1sen!2sar!4v1655658209545!5m2!1sen!2sar"
-						style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
-						class="map__map--flex"></iframe>
-					<img src="../assets/imagenes/contacto/taller2.jpg" class="map__img--flex"
-						alt="obra en proceso y en primer plano potes con pintura y pinceles">
-			</div>
-			</section>
+				</form>
+				<img src="../assets/imagenes/contacto/taller.jpg" class="contact__img--flex"
+					alt="sector del taller donde se ordenan las pinturas según su tonalidad">
+		</div>
+		</section>
+		<div class="map__bg--2">
+			<section>
+				<a id="taller">
+					<h2>conocer el taller.</h2>
+				</a>
+				<div class="map__content--flex"></div>
+				<iframe
+					src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3405.151719565589!2d-64.1787757!3d-31.4099457!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x943298766adf3823%3A0xe5c0bd1df5d0d068!2sOncativo%20190%2C%20X5000FDD%20C%C3%B3rdoba!5e0!3m2!1sen!2sar!4v1655658209545!5m2!1sen!2sar"
+					style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+					class="map__map--flex"></iframe>
+				<img src="../assets/imagenes/contacto/taller2.jpg" class="map__img--flex"
+					alt="obra en proceso y en primer plano potes con pintura y pinceles">
+		</div>
+		</section>
 		</div>
 	</main>
 	<div class="pie__all--bglight">
@@ -114,6 +108,9 @@
 			</a>
 		</footer>
 	</div>
-	<!-- quitar el footer desp del desafio, que solo quede en contacto -->
+	<!-- Option 1: Bootstrap Bundle with Popper -->
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+		integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+		crossorigin="anonymous"></script>
 </body>
 </html>

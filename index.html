@@ -1,35 +1,47 @@
- <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="es">
 <head>
 	<meta charset="UTF-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<!-- Bootstrap CSS -->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+		integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 	<title>lourdes miazzo.</title>
 	<link rel="shortcut icon" type="image/svg" href="assets/icono/minifavicon.svg" />
-	<link rel="stylesheet" type="text/css" href="css/style.css" />
+	<!--mi css va desp del css de bootstrap-->
+	<link rel="stylesheet" type="text/css" href="css/style2.css" />
 </head>
 <body>
-	<nav class="animated flex__nav--left">
-		<div class="listagral__nav--cambios">
-			<ul>
-				<li>
-					<a href="html/bio.html">bio.</a>
-				</li>
-				<li>
-					<a href="html/obras.html">obras.</a>
-				</li>
-				<li>
-					<a href="html/textos.html">textos.</a>
-				</li>
-				<li>
-					<a href="html/contacto.html">contacto.</a>
-				</li>
-			</ul>
+	<!-- inicia nav -->
+	<nav class="navbar navbar-expand-lg navbar-light bg-light animated ">
+		<div class="container-fluid">
+			<a class="navbar-brand" href="index.html"><img src="assets/icono/icono1.png" alt="icono de Lourdes Miazzo">
+				<h1>programación pictórica.</h1>
+			</a>
+			<button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+				data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+				aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+				<ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+					<li class="nav-item">
+						<a class="nav-link dark" href="html/bio.html">bio.</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link dark" href="html/obras.html">obras.</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link dark" href="html/textos.html">textos.</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link dark" href="html/contacto.html">contacto.</a>
+					</li>
+				</ul>
+			</div>
 		</div>
-		<a href="index.html">
-			<img src="assets/icono/icono1.png" alt="icono de Lourdes Miazzo">
-		</a>
-		<h1>programación pictórica.</h1>
 	</nav>
+	<!-- fin nav -->
 	<header>
 		<div class="header__image--flex">
 			<img src="assets/imagenes/index-portada/portada.jpg"
@@ -39,18 +51,9 @@
 				alt="color plano tonalidad magenta oscuro extraído de la obra adyacente " class="head1" />
 		</div>
 	</header>
-	<footer>
-		<div class="pie__all--bglight">
-			<h2>redes sociales.</h2>
-			<a href="https://www.instagram.com/lourdesmiazzo/?hl=en" target="blank">
-				<img src="assets/icono/instagram1.png" alt="icono de instagram version gráfica"
-					class="pie__icon--size" />
-			</a>
-			<a href="https://www.facebook.com/analourdes.miazzo/" target="blank">
-				<img src="assets/icono/facebook1.png" alt="icono de facebook version gráfica" class="pie__icon--size" />
-			</a>
-		</div>
-	</footer>
-	<!-- quitar el footer desp del desafio, que solo quede en contacto -->
+	<!-- Option 1: Bootstrap Bundle with Popper -->
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+		integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+		crossorigin="anonymous"></script>
 </body>
 </html>
