@@ -51,6 +51,7 @@ h1{
 }
 nav img{
     width: 21rem;
+
 }
 
 @keyframes nav-animated{
@@ -116,6 +117,9 @@ nav img{
     animation-timing-function: linear;
     animation-duration: 2.5s;
 }
+    
+                  /* =========MOBILE FIRST========= */
+                  /* ========CAMBIOS GRALES======== */
 
 nav{
     background-color: rgb(228, 228, 228);
@@ -128,41 +132,17 @@ nav .dark{
         font-size: 0.9rem;
 } 
 
-footer h2{
-    padding-top: 0.5rem;
-    color: rgb(228, 228, 228);
-    font-size: 1rem;
-  }
-  
-  .pie__icon--size{
-    width: 9%;
-    padding-bottom: 1rem;
-    padding-left: 1rem;
-  }
-  
-  .pie__all--bglight{
-    background-color: rgb(105, 105, 105);
-    background-image: url(../assets/imagenes/contacto/transp.png);
-  }
-
-    /* =======OBRAS======== */
-/*  .img{
-    width: 85vw;
-    margin: auto;
-    display: block;
-}
-
-.video{
-    width: 85vw;
-    height: 70vh;
-    margin: auto;
-    display: block;
-} */
- */
 h2{
   padding-top: 1rem;
   font-size: 1.7rem;
 }
+
+.head1{
+  height: 10vh;
+}
+
+
+                  /* ===========OBRAS MOBILE========= */
 
 .veintedos__all--bg1{
   background-color: rgb(216, 216, 216);  
@@ -214,13 +194,173 @@ h2{
   text-align: center;
 }
 
+button .boton__galeria--cualidades{
+  
+}
+                 /* ==============bio MOBILE=========== */
 
-        /* ==========MEDIA QUEERY 768px=========== */
+.bio__img--flex{
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(180, 180, 180);
+}  
 
-@media (min-width: 768px){
+.bio__titulo--locationcolor{
+  padding-top: 1rem;
+  color: rgb(75, 75, 75);
+  font-size: 1.7rem;
+}
 
-       /*  =========OBRAS 768px================== */
+.bio__text--modif{ 
+  color: rgb(75, 75, 75);
+  font-size: 1rem;
+  line-height: 1.2rem;
+  width: 135vw;
+}
+
+.bio__img--right{
+  height: auto;
+  width: 100vw;
+}
+
+#cv-titulo-positioncolor{
+  padding-top: 1rem;
+  color: rgb(195, 195, 195);
+  font-size: 1.7rem;
+} 
 
 
+.cv__all--bgdarkplus{
+  background-color: rgb(140, 140, 140);
+  padding-bottom: 1rem;
+}
 
-}  /* CIERRE MEDIA 768 NO ELIMINAR */
+.cv__all--bgdarkplus p{
+  color: rgb(195, 195, 195);
+  font-size: 1rem;
+  line-height: 1.2em;
+  width: 135vw;
+  
+}
+
+
+ /* ==============TEXTOS MOBILE=========== */
+
+ h2{
+  font-size: 1.7rem;
+}
+
+h3{
+  font-size: 1.5rem;
+}
+.text__propio--all{
+  background-color: rgb(192, 192, 192);
+  color: rgb(90, 90, 90);
+}
+
+.text__propio--all p{
+  font-size: 1rem;
+  line-height: 1.2rem;
+  width: 80vw;
+}
+
+.text__otros--all{
+  background-color: rgb(120, 120, 120);
+  color: rgb(205, 205, 205);
+}
+
+.text__otros--all p{
+  font-size: 1rem;
+  line-height: 1.2rem;
+  width: 80vw;
+}
+
+.text__link--color{
+  color: rgb(44, 47, 92);
+  text-decoration: none;
+  font-size: 0.8rem ;
+  width: 80vw;
+}
+
+.subt__text--block{
+  display: block;
+}
+
+                /* ===========CONTACTOS MOBILE=========== */
+footer h2{
+  padding-top: 0.5rem;
+  color: rgb(228, 228, 228);
+  font-size: 1rem;
+}
+
+.pie__icon--size{
+  width: 9%;
+  padding-bottom: 1rem;
+  padding-left: 1rem;
+}
+
+.pie__all--bglight{
+  background-color: rgb(105, 105, 105);
+  background-image: url(../assets/imagenes/contacto/transp.png);
+}
+
+
+form{
+  font-family: roboto, sans-serif;
+}
+
+.color-boton{
+  margin-left: 3rem;
+  background-color: rgb(250,250,250);
+}
+
+.contact__bg--1{
+  background-color: rgb(190, 190, 190);
+  color: rgb(60, 60, 60);
+  line-height: 1.2rem;
+}
+
+.map__bg--2{
+  background-color: rgb(140, 140, 140);
+  color: rgb(95, 95, 95)
+}
+
+.color{
+background-color: rgb(220, 220, 220);
+  color: rgb(50, 50, 50);
+}
+
+/* ===agregado porque se quiebra estos puntos== */
+
+@media (max-width: 576px){   
+
+  .header__image--flex{
+    display: flex;
+    flex-direction: column;
+  }
+
+} /* ====cierre media -576px===== */
+
+@media (max-width: 416px){   
+nav img{
+  width: 14rem;
+}
+nav h1{
+  font-size: 0.8rem;
+}
+}
+@media (max-width: 304px){   
+nav img{
+  width: 11rem;
+}
+}
+
+@media (max-width: 288px){   
+  nav img{
+    width: 7rem;
+  }
+  
+  nav h1{
+    font-size: 0.6rem;
+  }
+  }

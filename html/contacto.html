@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,6 +12,7 @@
 	<!--mi css va desp del css de bootstrap-->
 	<link rel="stylesheet" type="text/css" href="../css/style2.css">
 </head>
+
 <body>
 	<!-- inicia nav -->
 	<nav class="navbar navbar-expand-lg navbar-light bg-light animated">
@@ -50,32 +52,37 @@
 	</nav>
 	<!-- termina nav -->
 	<main>
-		<div class="contact__bg--1">
-			<a id="contacto">
-				<h2>contacto.</h2>
-			</a>
-			<section>
-				<form class="d-flex">
-					<div class="form__content--flex">
-						<div class="mb-3">
-							<label for="nombre" class="form-label">Nombre y Apellido</label>
-							<input type="text" class="form-control" id="nombre" required>
-						</div>
-						<div class="mb-3">
-							<label for="exampleFormControlInput1" class="form-label">Email</label>
-							<input type="email" class="form-control" id="exampleFormControlInput1" required>
-						</div>
-						<div class="mb-3">
-							<label for="exampleFormControlTextarea1" class="form-label">Mensaje</label>
-							<textarea class="form-control" id="exampleFormControlTextarea1" rows="3"
-								required></textarea>
-						</div>
-						</fieldset>
-				</form>
-				<img src="../assets/imagenes/contacto/taller.jpg" class="contact__img--flex"
-					alt="sector del taller donde se ordenan las pinturas según su tonalidad">
+		<div class="container-fluid py-3 contact__bg--1">
+			<div class="row">
+				<div class="col-xs-9 col-sm-10 col-md-6 col-lg-4">
+					<a id="contacto">
+						<h2 class="px-1 py-1">contacto.</h2>
+					</a>
+					<section>
+						<form class="w-100 d-block mx-auto">
+							<div class="mb-3">
+								<label for="nombre" class="form-label">Nombre y Apellido</label>
+								<input type="text" class="form-control" id="nombre" required>
+							</div>
+							<div class="mb-3">
+								<label for="exampleFormControlInput1" class="form-label">Email</label>
+								<input type="email" class="form-control" id="exampleFormControlInput1" required>
+							</div>
+							<div class="mb-3">
+								<label for="exampleFormControlTextarea1" class="form-label">Mensaje</label>
+								<textarea class="form-control" id="exampleFormControlTextarea1" rows="3"
+									required></textarea>
+							</div>
+							<input class="btn color-boton" type="submit" value="Enviar">
+						</form>
+				</div>
+				<div class="col-sm-12 col-md-5 col-lg-7 my-auto mx-auto">
+					<img src="../assets/imagenes/contacto/taller.jpg" class="contact__img--flex w-100 d-block"
+						alt="sector del taller donde se ordenan las pinturas según su tonalidad">
+				</div>
+				</section>
+			</div>
 		</div>
-		</section>
 		<div class="map__bg--2">
 			<section>
 				<a id="taller">
@@ -88,8 +95,7 @@
 					class="map__map--flex"></iframe>
 				<img src="../assets/imagenes/contacto/taller2.jpg" class="map__img--flex"
 					alt="obra en proceso y en primer plano potes con pintura y pinceles">
-		</div>
-		</section>
+			</section>
 		</div>
 	</main>
 	<div class="pie__all--bglight">
@@ -113,4 +119,5 @@
 		integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
 		crossorigin="anonymous"></script>
 </body>
+
 </html>
