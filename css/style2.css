@@ -123,7 +123,7 @@ nav img{
 
 
 .head1{
-  height: 10vh;
+  height: 20vh;
 }
 
 nav h1{
@@ -283,7 +283,7 @@ footer h2{
   font-size: 1.2rem;
 }
 
-.pie__icon--size{
+.icon-size{
   width: 9%;
 }
 
@@ -440,7 +440,7 @@ footer h2{
   font-size: 1.7rem;
 }
 
-.pie__icon--size{
+.icon-size{
   width: 5%;
 }
 
@@ -580,7 +580,7 @@ footer h2{
   font-size: 1.8rem;
 }
 
-.pie__icon--size{
+.icon-size{
   width: 4%;
 }
 }
