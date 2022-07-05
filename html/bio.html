@@ -13,7 +13,7 @@
 </head>
 <body>
 	<!-- inicia nav -->
-	<nav class="navbar navbar-expand-lg navbar-light bg-light animated">
+	<nav class="navbar navbar-expand-lg navbar-light animated">
 		<div class="container-fluid">
 			<a class="navbar-brand" href="../index.html"><img src="../assets/icono/icono1.png"
 					alt="icono de Lourdes Miazzo" class="nav__logo--ajuste"></a>
@@ -49,8 +49,16 @@
 	</nav>
 	<!-- fin nav -->
 	<main>
-		<section class="bio__img--flex container-fluid">
-			<div class=" bio__text--bgdark d-flex flex-sm-column flex-md-column-reverse flex-lg-row row">
+		<section class="bio__img--flex container-fluid py-3">
+			<!-- inicia breadcrumbs -->
+			<nav aria-label="breadcrumb">
+				<ol class="breadcrumb  bio__img--flex py-1">
+					<li class="breadcrumb-item bread-cambios ms-2"><a href="../index.html">inicio.</a></li>
+					<li class="breadcrumb-item active bread-cambios" aria-current="page">bio.</li>
+				  </ol>
+			</nav>
+			<!-- termina breadcrumbs -->
+			<div class="d-flex flex-sm-column flex-md-column-reverse flex-lg-row row">
 				<div class="col-sm-12 col-md-12 col-lg-6">
 					<a id="bio.">
 						<h2 class="bio__titulo--locationcolor ms-sm-2 ms-md-3 pt-2">bio.</h2>
@@ -128,5 +136,4 @@
 		integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
 		crossorigin="anonymous"></script>
 </body>
-
 </html>

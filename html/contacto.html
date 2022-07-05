@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="es">
-
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,11 +11,10 @@
 	<!--mi css va desp del css de bootstrap-->
 	<link rel="stylesheet" type="text/css" href="../css/style2.css">
 </head>
-
 <body>
 	<!-- inicia nav -->
-	<nav class="navbar navbar-expand-lg navbar-light bg-light animated">
-	<div class="container-fluid">
+	<nav class="navbar navbar-expand-lg navbar-light animated">
+		<div class="container-fluid">
 			<a class="navbar-brand" href="../index.html"><img src="../assets/icono/icono1.png"
 					alt="icono de Lourdes Miazzo" class="nav__logo--ajuste"></a>
 			<button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -53,6 +51,14 @@
 	<!-- termina nav -->
 	<main>
 		<div class="container-fluid py-3 contact__bg--1">
+			<!-- inicia breadcrumbs -->
+			<nav aria-label="breadcrumb">
+				<ol class="breadcrumb contact__bg--1 py-1">
+					<li class="breadcrumb-item bread-cambios ms-2"><a href="../index.html">inicio.</a></li>
+					<li class="breadcrumb-item active bread-cambios" aria-current="page">contacto.</li>
+     			</ol>
+			</nav>
+			<!-- termina breadcrumbs -->
 			<div class="row">
 				<div class="col-xs-9 col-sm-10 col-md-6 col-lg-4">
 					<a id="contacto">
@@ -85,22 +91,22 @@
 		</div>
 		<div class="map__flex container-fluid d-flex flex-sm-column flex-md-column flex-lg-row py-3 map__bg--2">
 			<div class="row">
-			<section>
-				<a id="taller">
-					<h2 class="px-1">conocer el taller.</h2>
-				</a>
-				<div class="col-sm-12 col-md-12 col-lg-6 mx-auto my-auto"></div>
-				<iframe
-					src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3405.151719565589!2d-64.1787757!3d-31.4099457!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x943298766adf3823%3A0xe5c0bd1df5d0d068!2sOncativo%20190%2C%20X5000FDD%20C%C3%B3rdoba!5e0!3m2!1sen!2sar!4v1655658209545!5m2!1sen!2sar"
-					style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
-					class="d-block map__map--flex my-2 ms-2 mt-lg-5"></iframe>
-				</div>
-				<div class="col-sm-12 col-md-12 col-lg-6 mx-auto my-auto">
-				<img src="../assets/imagenes/contacto/taller2.jpg" class="d-block my-2 ms-2 map__img--flex"
-					alt="obra en proceso y en primer plano potes con pintura y pinceles">
-				</div>
-			</section> 
-			</div>
+				<section>
+					<a id="taller">
+						<h2 class="px-1">conocer el taller.</h2>
+					</a>
+					<div class="col-sm-12 col-md-12 col-lg-6 mx-auto my-auto"></div>
+					    <iframe
+						src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3405.151719565589!2d-64.1787757!3d-31.4099457!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x943298766adf3823%3A0xe5c0bd1df5d0d068!2sOncativo%20190%2C%20X5000FDD%20C%C3%B3rdoba!5e0!3m2!1sen!2sar!4v1655658209545!5m2!1sen!2sar"
+						style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+						class="d-block map__map--flex my-2 ms-2 mt-lg-5"></iframe>
+			        </div>
+			        <div class="col-sm-12 col-md-12 col-lg-6 mx-auto my-auto">
+				        <img src="../assets/imagenes/contacto/taller2.jpg" class="d-block my-2 ms-2 map__img--flex"
+					    alt="obra en proceso y en primer plano potes con pintura y pinceles">
+			        </div>
+			    </section>
+		    </div>
 		</div>
 	</main>
 	<div class="pie__all--bglight">
@@ -110,10 +116,11 @@
 			</a>
 			<a href=https://www.instagram.com/lourdesmiazzo/ target="blank">
 				<img src="../assets/icono/instagram1.png" alt="icono de instagram version gráfica"
-				class="icon-size ms-4 my-2"></a> <!-- si a esta </a> la pongo abajo,para código más ordenado me aparece un (-) en la página  -->
+				class="icon-size ms-4 my-2"></a>
+			<!-- si a esta </a> la pongo abajo,para código más ordenado me aparece un (-) en la página  -->
 			<a href=https://www.facebook.com/analourdes.miazzo/ target="blank">
 				<img src="../assets/icono/facebook1.png" alt="icono de facebook version gráfica"
-					class="icon-size ms-4 my-2">
+				class="icon-size ms-4 my-2">
 			</a>
 		</footer>
 	</div>

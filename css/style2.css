@@ -118,12 +118,16 @@ nav img{
   animation-duration: 2.5s;
 }
 
+nav ol .bread-cambios{
+  font-family: oswald, san serif;
+}
+
 
                 /* =======INDEX MOVILE======== */
 
 
 .head1{
-  height: 30vh;
+  height: 10vh;
 }
 
 nav h1{
@@ -464,6 +468,9 @@ nav .dark{
 
 h1{
   font-size: 1.9rem;
+}
+nav ul li a{
+  margin-right: 2rem;
 }
 
 nav ul li a:hover{
