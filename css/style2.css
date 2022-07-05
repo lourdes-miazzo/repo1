@@ -229,9 +229,16 @@ h2{
   cursor: pointer;
 }
 
+.video-flex{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: space-evenly;
+}
+
 .video{
-  width: 85vw;
-  height: 70vh;
+  width: 60vw;
+  height: 85vh;
 }
 
 
@@ -511,7 +518,7 @@ nav ul li a:active{
 
 .video{
   width: 70vw;
-  height: 60vh;
+  height: 85vh;
 }
 
 .boton__galeria--cualidades{
