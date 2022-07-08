@@ -52,6 +52,9 @@ main{
                 color: rgb(195, 195, 195);
                 font-size: $text__xxs;
                 margin-left: 1.8rem;
+                @media (max-width: 576px){
+                    margin-left: 1.2rem;
+                }
                 @media (min-width: 768px){
                     font-size: $text__s;
                     margin-left: 2.5rem;
