@@ -1,0 +1,13 @@
+header{
+    .header__image--flex{
+        @media (max-width: 576px){   
+            display: flex;
+            flex-direction: column;
+        }  
+        img{
+        }
+        .head1{
+            height: 10vh;
+        }
+    }
+}

@@ -1,0 +1,31 @@
+.pie__all--bglight{
+    background-color: rgb(105, 105, 105);
+    background-image: url(../assets/imagenes/contacto/transp.png);
+    footer{
+        #redes{
+            h2{
+                padding-top: 0.5rem;
+                color: rgb(228, 228, 228);
+                font-size: $text__s;
+                @media (min-width: 768px){   
+                    font-size: $text__lg;
+                }
+                @media (min-width: 992px){   
+                    font-size: $text__xlg;
+                }
+            }
+        }
+        a{
+            .icon-size{
+                width: 9%;
+                @media (min-width: 768px){   
+                    width: 5%;
+                }
+                @media (min-width: 992px){   
+                    width: 4%;
+                }
+            }
+        }  
+    }
+
+}

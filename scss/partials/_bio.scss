@@ -1,0 +1,80 @@
+main{
+    .bio__img--flex{
+        background-color: rgb(180, 180, 180);
+        div{
+            div{
+                a{
+                    .bio__titulo--locationcolor{
+                        color: rgb(75, 75, 75);
+                        font-size: $text__s;
+                        @media (min-width: 768px){
+                            font-size: $text__lg;
+                        }
+                        @media (min-width: 992px){
+                            font-size: $text__xlg;
+                        }
+                    }
+                }
+                .bio__text--modif{
+                    color: rgb(75, 75, 75);
+                    font-size: $text__xxs;
+                    line-height: $lineh__s;
+                    @media (min-width: 768px){
+                        font-size: $text__xs ;
+                        line-height: $lineh__md;
+                    }
+                    @media (min-width: 992px){
+                        font-size: $text__s ;
+                        line-height: $lineh__lg;
+                    }
+                }
+            }
+        }
+    }
+    section{
+        .cv__all--bgdarkplus{
+            background-color: rgb(140, 140, 140);
+            div{
+                a{
+                    #cv-titulo-positioncolor{
+                        color: rgb(195, 195, 195);
+                        font-size: $text__s;
+                        @media (min-width: 768px){
+                            font-size: $text__lg;
+                        }
+                        @media (min-width: 992px){
+                            font-size: $text__xlg;
+                        }
+                    }
+                }
+            }
+            .p__titulo--caract{
+                color: rgb(195, 195, 195);
+                font-size: $text__xxs;
+                margin-left: 1.8rem;
+                @media (min-width: 768px){
+                    font-size: $text__s;
+                    margin-left: 2.5rem;
+                }
+                @media (min-width: 992px){
+                    font-size: $text__md;
+                    margin-left: 2.7rem;
+                }
+            }
+            div{
+                p{
+                    color: rgb(195, 195, 195);
+                    font-size:  $text__xxs;
+                    line-height: $lineh__s;
+                    margin-left: 1rem; 
+                    @media (min-width: 768px){
+                        font-size: $text__xs;
+                    }
+                    @media (min-width: 992px){
+                        font-size: $text__s;
+                    }
+                }
+            }
+        }
+    }
+}

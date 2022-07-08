@@ -1,0 +1,11 @@
+
+nav{
+    .nav__logo--ajuste{
+        @media (max-width: 304px){
+            width: 8rem;
+        } 		
+        @media (max-width: 432px){  
+            width: 13rem; 	
+        }
+    }
+}
