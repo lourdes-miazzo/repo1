@@ -1,0 +1,67 @@
+.back__especial--404{
+    background-image: url(../assets/imagenes/404/gl-mini.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    @media (min-width: 442px){   
+    background-image: url(../assets/imagenes/404/gl-rotado.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+    @media (min-width: 768px){   
+        background-image: url(../assets/imagenes/404/gl1.webp);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    main{
+        section{
+            display: flex;
+            justify-content: center;
+            margin-top: 4rem;
+            @media (min-width: 768px){   
+            margin-top: 8rem;
+            margin-right: 2rem;
+            }
+            .color-fondo{
+                background-color: rgba(228, 228, 228, 0.9); 
+                display: inline-block; 
+                padding: 2rem;
+                @media (min-width: 768px){ 
+                padding: 5rem;
+                }
+                h1{
+                    font-size: $text__lg;
+                    @media (min-width: 768px){                
+                        font-size: $text__xlg;
+                    }
+                    @media (min-width: 992px){   
+                        font-size: $text__xxlg;
+                    }                
+                }
+                p{
+                    
+                }
+            }
+        }
+    }
+    div{
+        display: flex;
+        justify-content: flex-end;
+        margin-right: 1rem;
+        margin-top: 8rem;
+        @media (min-width: 992px){   
+            margin-right: 1rem;
+            margin-top: 3rem;    
+        }                
+        footer{
+            background-color: rgba(228,228,228, 0.8);  
+                padding: 1.5rem;
+                display: inline-block;
+                a{
+                    font-family: $main__font;
+                    text-decoration: none;
+                    color: rgb(58, 39, 64);
+                    font-weight: $bold__font;
+                } 
+        }
+    }
+}

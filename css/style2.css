@@ -295,6 +295,11 @@ header .header__image--flex .head1 {
     @media (min-width: 992px) {
       .pie__all--bglight footer a .icon-size {
         width: 4%; } }
+  .pie__all--bglight footer .info__boton--cambios {
+    text-decoration: none;
+    color: #e4e4e4;
+    margin-left: 1rem;
+    font-family: Roboto, sans-serif; }
 
 main .bio__img--flex {
   background-color: #b4b4b4; }
@@ -357,3 +362,59 @@ main section .cv__all--bgdarkplus {
     @media (min-width: 992px) {
       main section .cv__all--bgdarkplus div p {
         font-size: 1.2rem; } }
+
+.back__especial--404 {
+  background-image: url(../assets/imagenes/404/gl-mini.webp);
+  background-repeat: no-repeat;
+  background-size: cover; }
+  @media (min-width: 442px) {
+    .back__especial--404 {
+      background-image: url(../assets/imagenes/404/gl-rotado.webp);
+      background-repeat: no-repeat;
+      background-size: cover; } }
+  @media (min-width: 768px) {
+    .back__especial--404 {
+      background-image: url(../assets/imagenes/404/gl1.webp);
+      background-repeat: no-repeat;
+      background-size: cover; } }
+  .back__especial--404 main section {
+    display: flex;
+    justify-content: center;
+    margin-top: 4rem; }
+    @media (min-width: 768px) {
+      .back__especial--404 main section {
+        margin-top: 8rem;
+        margin-right: 2rem; } }
+    .back__especial--404 main section .color-fondo {
+      background-color: rgba(228, 228, 228, 0.9);
+      display: inline-block;
+      padding: 2rem; }
+      @media (min-width: 768px) {
+        .back__especial--404 main section .color-fondo {
+          padding: 5rem; } }
+      .back__especial--404 main section .color-fondo h1 {
+        font-size: 1.6rem; }
+        @media (min-width: 768px) {
+          .back__especial--404 main section .color-fondo h1 {
+            font-size: 1.8rem; } }
+        @media (min-width: 992px) {
+          .back__especial--404 main section .color-fondo h1 {
+            font-size: 1.9rem; } }
+  .back__especial--404 div {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 1rem;
+    margin-top: 8rem; }
+    @media (min-width: 992px) {
+      .back__especial--404 div {
+        margin-right: 1rem;
+        margin-top: 3rem; } }
+    .back__especial--404 div footer {
+      background-color: rgba(228, 228, 228, 0.8);
+      padding: 1.5rem;
+      display: inline-block; }
+      .back__especial--404 div footer a {
+        font-family: Roboto, sans-serif;
+        text-decoration: none;
+        color: #3a2740;
+        font-weight: 700; }
