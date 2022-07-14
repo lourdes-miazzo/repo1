@@ -364,12 +364,12 @@ main section .cv__all--bgdarkplus {
         font-size: 1.2rem; } }
 
 .back__especial--404 {
-  background-image: url(../assets/imagenes/404/gl-mini.webp);
-  background-repeat: no-repeat;
+  background-image: url(../assets/imagenes/404/gl5.webp);
+  background-repeat: repeat;
   background-size: cover; }
   @media (min-width: 442px) {
     .back__especial--404 {
-      background-image: url(../assets/imagenes/404/gl-rotado.webp);
+      background-image: url(../assets/imagenes/404/gl4.webp);
       background-repeat: no-repeat;
       background-size: cover; } }
   @media (min-width: 768px) {
@@ -403,7 +403,7 @@ main section .cv__all--bgdarkplus {
   .back__especial--404 div {
     display: flex;
     justify-content: flex-end;
-    margin-right: 1rem;
+    margin-right: 0.5rem;
     margin-top: 8rem; }
     @media (min-width: 992px) {
       .back__especial--404 div {
