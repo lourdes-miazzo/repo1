@@ -1,0 +1,114 @@
+//mixin
+@mixin estilo-txt ($font-sz, $line-hg) {
+    font-size: $font-sz;
+    line-height: $line-hg;
+}
+
+main{
+    .text__propio--all{
+        background-color:
+        rgb(192, 192, 192);
+        section{
+            a{
+                h2{
+                    color: rgb(90, 90, 99);
+                    font-size: $text__s;
+                    @media (min-width: 768px){
+                        font-size: $text__lg;
+                    }
+                    @media (min-width: 992px){
+                        font-size: $text__xlg;
+                    }
+                }
+            }
+            h3{
+                color: rgb(90, 90, 99);
+                font-size: $text__xs;
+                @media (min-width: 768px){
+                    font-size:$text__md;
+                }
+                @media (min-width: 992px){
+                    font-size: $text__lg;
+                }
+            }
+            p{
+                color: rgb(90, 90, 99);
+                margin-right: 1rem;
+                margin-left: 1rem; 
+                @include estilo-txt ($text__super--xxs, $lineh__xs);
+                    @media (min-width: 768px){
+                        @include estilo-txt ($text__xs, $lineh__md);
+                    }
+                    @media (min-width: 992px){
+                        @include estilo-txt ($text__s, $lineh__lg);
+                }
+            }
+        }
+    }
+    .text__otros--all{
+        background-color: rgb(120, 120, 120);
+        section{
+            a{
+                h2{
+                    color: rgb(205, 205, 205);
+                    font-size: $text__s;
+                    @media (min-width: 768px){
+                        font-size: $text__lg;
+                    }
+                    @media (min-width: 992px){
+                        font-size: $text__xlg;
+                    }
+                }
+            }
+            article{
+                h3{
+                    color: rgb(205, 205, 205);
+                    font-size: $text__xs;
+                    @media (min-width: 768px){
+                        font-size:$text__md;
+                    }
+                    @media (min-width: 992px){
+                        font-size: $text__lg;
+                    }
+                        .text__link--color{
+                        color: rgb(44, 47, 92);
+                        text-decoration: none;
+                        font-size: $text__super--xxs;
+                        width: 80vw;
+                        @media (min-width: 768px) {
+                            font-size: $text__xxs;
+                        }
+                        @media (min-width: 992px) {
+                            font-size: $text__md;
+                        }
+                        }
+                }
+                h4{
+                    color: rgb(205, 205, 205);
+                    font-size: $text__xxs; 
+                    @media (min-width: 768px) {
+                        font-size: $text__s;
+                    }
+                    @media (min-width: 992px) {
+                        font-size: $text__md;
+                    }
+                }
+                p{
+                    color: rgb(205, 205, 205);
+                    margin-right: 1rem;
+                    margin-left: 1rem; 
+                    @include estilo-txt ($text__super--xxs, $lineh__xs);
+                        @media (min-width: 768px){
+                            @include estilo-txt ($text__xs, $lineh__md);
+                        }
+                        @media (min-width: 992px){
+                            @include estilo-txt ($text__s, $lineh__lg);
+                    }
+                    .subt__text--block{
+                    display: block;
+                    }
+                }
+            }
+        }
+    }
+}

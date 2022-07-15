@@ -4,8 +4,8 @@
     background-size: cover;
     @media (min-width: 442px){   
     background-image: url(../assets/imagenes/404/gl4.webp);
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-repeat: repeat;
+    background-size: contain;
     }
     @media (min-width: 768px){   
         background-image: url(../assets/imagenes/404/gl1.webp);
@@ -47,9 +47,12 @@
         display: flex;
         justify-content: flex-end;
         margin-right: 0.5rem;
-        margin-top: 8rem;
-        @media (min-width: 992px){   
+        margin-top: 12rem;
+        @media (min-width: 768px){   
             margin-right: 1rem;
+            margin-top: 7rem;    
+        } 
+        @media (min-width: 992px){   
             margin-top: 3rem;    
         }                
         footer{

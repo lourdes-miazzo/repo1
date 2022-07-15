@@ -1,7 +1,7 @@
 {
-  "name": "repo1",
+  "name": "Lourdes Miazzo",
   "version": "1.0.0",
-  "description": "",
+  "description": "Sitio web de la artista geometrica Lourdes Miazzo",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -12,7 +12,7 @@
     "type": "git",
     "url": "git+https://github.com/lourdes-miazzo/repo1.git"
   },
-  "author": "",
+  "author": "Lourdes Miazzo",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/lourdes-miazzo/repo1/issues"

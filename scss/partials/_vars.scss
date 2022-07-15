@@ -1,0 +1,116 @@
+//maps
+$grayscale-font:(
+    "uno":rgb(95, 95, 95),
+    "dos": rgb(144, 144, 144),
+    "tres":rgb(156, 156, 156),
+    "cuatro":rgb(160, 160, 160),
+    "cinco":rgb(190, 190, 190),
+    "seis": rgb(192, 192, 192),
+    "siete": rgb(204, 204, 204),
+    "ocho": rgb(216, 216, 216)
+    );
+
+
+.boton__galeria--cualidades1{
+    text-decoration: none;
+    font-family: $main__font;
+    font-weight: $light__font;
+    font-size: $text__xxs;
+    color: map-get($map: $grayscale-font, $key:"uno");
+    margin-bottom: 2rem;
+    text-align: center;
+    &:hover{
+        cursor: pointer;
+    }
+    @media (min-width:992px){
+        font-size: $text__s;
+        margin-bottom: 3rem;
+    }
+}
+
+.boton__galeria--cualidades2{
+    @extend .boton__galeria--cualidades1;
+        color: map-get($map: $grayscale-font, $key:"dos");
+} 
+
+.boton__galeria--cualidades3{
+    @extend .boton__galeria--cualidades1;
+        color: map-get($map: $grayscale-font, $key:"tres");
+}
+
+.boton__galeria--cualidades4{
+    @extend .boton__galeria--cualidades1;
+        color: map-get($map: $grayscale-font, $key:"cuatro");
+}
+
+.boton__galeria--cualidades5{
+    @extend .boton__galeria--cualidades1;
+        color: map-get($map: $grayscale-font, $key:"cinco");
+}
+
+.boton__galeria--cualidades6{
+    @extend .boton__galeria--cualidades1;
+        color: map-get($map: $grayscale-font, $key:"seis");
+}
+
+.boton__galeria--cualidades7{
+    @extend .boton__galeria--cualidades1;
+        color: map-get($map: $grayscale-font, $key:"siete");
+}
+
+.boton__galeria--cualidades8{
+    @extend .boton__galeria--cualidades1;
+        color: map-get($map: $grayscale-font, $key:"ocho");
+}
+
+//animaciones obra
+
+.img-left{
+    @media (min-width: 768px){
+        &:hover{
+            transform: translateX(70px) scale(1.5);
+            transition: 0.4s;
+            cursor: pointer;
+        }
+    }
+}
+
+.img-right{
+    @media (min-width: 768px){
+        &:hover{
+            transform: translateX(-70px) scale(1.5);
+            transition: 0.4s;
+            cursor: pointer;
+        }
+    }
+}
+
+.imagenes-center{
+    @media (min-width: 992px){
+        &:hover{
+            transform: scale(1.5);
+            transition: 0.4s;
+            cursor: pointer;
+        }
+    }
+}
+
+.imagenes-left{
+    @media (min-width: 992px){
+        &:hover{
+            transform: translateX(80px) scale(1.5);
+            transition: 0.4s;
+            cursor: pointer;
+        }
+    }
+}
+
+.imagenes-right{
+    @media (min-width: 992px){
+        &:hover{
+            transform: translateX(-80px) scale(1.5);
+            transition: 0.4s;
+            cursor: pointer;
+        }
+    }
+}

@@ -1,0 +1,132 @@
+//maps
+$grayscale-font:(
+    "uno":rgb(95, 95, 95),
+    "dos": rgb(144, 144, 144),
+    "tres":rgb(156, 156, 156),
+    "cuatro":rgb(160, 160, 160),
+    "cinco":rgb(190, 190, 190),
+    "seis": rgb(192, 192, 192),
+    "siete": rgb(204, 204, 204),
+    "ocho": rgb(216, 216, 216)
+    );
+
+main{
+    .veintedos__all--bg1{
+        background-color: rgb(216, 216, 216); 
+        a{
+            .uno__titulo--caract{
+                font-size: $text__s;
+                color:map-get($map:$grayscale-font, $key:"uno");
+                @media  (min-width: 768px) {
+                    padding-top: 1rem;
+                    font-size: $text__xlg;
+                }
+            }
+        }
+    }
+    .veinteuno__all--bg2{
+        background-color: rgb(204, 204, 204);
+        a{
+            .dos__titulo--caract{
+                @extend .uno__titulo--caract;
+                color: map-get($map: $grayscale-font, $key:"dos");
+            }
+        }
+    }
+    .veinte__all--bg3{
+        background-color: rgb(192, 192, 192);
+        a{
+            .tres__titulo--caract{
+                @extend .uno__titulo--caract;
+                color: map-get($map: $grayscale-font, $key:"tres");
+            }
+        }
+    }
+    .dieznueve__all--bg4{
+        background-color: rgb(180, 180, 180);
+        a{
+            .cuatro__titulo--caract{
+                @extend .uno__titulo--caract;
+                color: map-get($map: $grayscale-font, $key:"cuatro");
+            }
+        }
+    }
+    .diezocho__all--bg5{
+        background-color: rgb(168, 168, 168);
+        a{
+            .cinco__titulo--caract{
+                @extend .uno__titulo--caract;
+                color: map-get($map: $grayscale-font, $key:"cinco");
+            }
+        }
+    }
+    .diezsiete__all--bg6{
+        background-color: rgb(156, 156, 156);
+        a{
+            .seis__titulo--caract{
+                @extend .uno__titulo--caract;
+                color: map-get($map: $grayscale-font, $key:"seis");
+            }
+        }
+    }
+    .diezseis__all--bg7{
+        background-color: rgb(144, 144, 144);
+        a{
+            .siete__titulo--caract{
+                @extend .uno__titulo--caract;
+                color: map-get($map: $grayscale-font, $key:"siete");
+            }
+        }
+    }
+    .video__all--bg8{
+        background-color: rgb(130, 130, 130);
+        a{
+            .ocho__titulo--caract{
+                @extend .uno__titulo--caract;
+                color: map-get($map: $grayscale-font, $key:"ocho");
+            }
+        }
+        .video-flex{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-content: space-evenly;
+            .video{
+                width: 70vw;
+                height: 50vh;
+                @media (min-width: 768px){  
+                    width: 80vw;
+                    height: 70vh;
+                }
+                @media (min-width: 992px){ 
+                    width: 70vw;
+                    height: 85vh;
+                }
+            }
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
