@@ -571,33 +571,33 @@ main .text__otros--all {
 
 main .contact__bg--1 {
   background-color: #bebebe; }
-  main .contact__bg--1 div div a h2 {
+  main .contact__bg--1 a h2 {
     color: #3c3c3c;
     font-size: 1.2rem; }
     @media (min-width: 768px) {
-      main .contact__bg--1 div div a h2 {
+      main .contact__bg--1 a h2 {
         font-size: 1.6rem; } }
     @media (min-width: 992px) {
-      main .contact__bg--1 div div a h2 {
+      main .contact__bg--1 a h2 {
         font-size: 1.8rem; } }
-  main .contact__bg--1 div div section form {
+  main .contact__bg--1 section form {
     font-family: Roboto, sans-serif; }
-    main .contact__bg--1 div div section form .color-boton {
+    main .contact__bg--1 section form .color-boton {
       margin-left: 1rem;
       background-color: #ebebeb; }
-    main .contact__bg--1 div div section form .form-control {
+    main .contact__bg--1 section form .form-control {
       background-color: #ebebeb; }
 
 main .map__bg--2 {
   background-color: #8c8c8c; }
-  main .map__bg--2 div section a h2 {
+  main .map__bg--2 a h2 {
     color: #5f5f5f;
     font-size: 1.2rem; }
     @media (min-width: 768px) {
-      main .map__bg--2 div section a h2 {
+      main .map__bg--2 a h2 {
         font-size: 1.6rem; } }
     @media (min-width: 992px) {
-      main .map__bg--2 div section a h2 {
+      main .map__bg--2 a h2 {
         font-size: 1.8rem; } }
 
 @media (max-width: 304px) {

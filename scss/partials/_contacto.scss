@@ -1,50 +1,42 @@
 main{
     .contact__bg--1{
         background-color: rgb(190, 190, 190);
-        div{
-            div{
-                a{
-                    h2{
-                        color: rgb(60, 60, 60);
-                        font-size: $text__s;
-                        @media (min-width: 768px){
-                            font-size:$text__lg;   
+                        a{
+                            h2{
+                                color: rgb(60, 60, 60);
+                                font-size: $text__s;
+                                @media (min-width: 768px){
+                                    font-size:$text__lg;   
+                                }
+                                @media (min-width: 992px){
+                                    font-size: $text__xlg;   
+                                }
+                            }
                         }
-                        @media (min-width: 992px){
-                            font-size: $text__xlg;   
+                        section{
+                            form{
+                                font-family: $main__font;
+                                .color-boton{
+                                    margin-left: 1rem;
+                                    background-color: rgb(235,235,235);
+                                }
+                                .form-control{
+                                    background-color: rgb(235, 235, 235);;
+                                }
+                            }
                         }
-                    }
-                }
-                section{
-                    form{
-                        font-family: $main__font;
-                        .color-boton{
-                            margin-left: 1rem;
-                            background-color: rgb(235,235,235);
-                        }
-                        .form-control{
-                            background-color: rgb(235, 235, 235);;
-                        }
-                    }
-                }
-            }
-        }
     }
     .map__bg--2{
         background-color: rgb(140, 140, 140);
-        div{
-            section{
-                a{
-                    h2{
-                        color: rgb(95, 95, 95);
-                        font-size: $text__s;
-                        @media (min-width: 768px){
-                            font-size:$text__lg;    
-                        }
-                        @media (min-width: 992px){
-                            font-size: $text__xlg;   
-                        }
-                    }
+        a{
+            h2{
+                color: rgb(95, 95, 95);
+                font-size: $text__s;
+                @media (min-width: 768px){
+                    font-size:$text__lg;    
+                }
+                @media (min-width: 992px){
+                    font-size: $text__xlg;   
                 }
             }
         }
