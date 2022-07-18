@@ -308,15 +308,18 @@ main .bio__img--flex {
   main .bio__img--flex div div .bio__text--modif {
     color: #4b4b4b;
     font-size: 0.8rem;
-    line-height: 1.2rem; }
+    line-height: 1.2rem;
+    margin-left: 1.8rem; }
     @media (min-width: 768px) {
       main .bio__img--flex div div .bio__text--modif {
         font-size: 1rem;
-        line-height: 1.4rem; } }
+        line-height: 1.4rem;
+        margin-left: 2.5rem; } }
     @media (min-width: 992px) {
       main .bio__img--flex div div .bio__text--modif {
         font-size: 1.2rem;
-        line-height: 1.6rem; } }
+        line-height: 1.6rem;
+        margin-left: 2.7rem; } }
 
 main section .cv__all--bgdarkplus {
   background-color: #8c8c8c; }
@@ -346,16 +349,19 @@ main section .cv__all--bgdarkplus {
         margin-left: 2.7rem; } }
   main section .cv__all--bgdarkplus div p {
     color: #c3c3c3;
+    margin-left: 1.8rem;
     font-size: 0.8rem;
     line-height: 1.2rem; }
     @media (min-width: 768px) {
       main section .cv__all--bgdarkplus div p {
         font-size: 1rem;
-        line-height: 1.4rem; } }
+        line-height: 1.4rem;
+        margin-left: 2.5rem; } }
     @media (min-width: 992px) {
       main section .cv__all--bgdarkplus div p {
         font-size: 1.2rem;
-        line-height: 1.6rem; } }
+        line-height: 1.6rem;
+        margin-left: 2.7rem; } }
 
 main .veintedos__all--bg1 .btn .boton__galeria--cualidades1, main .veinteuno__all--bg2 .btn .boton__galeria--cualidades2, main .veinte__all--bg3 .btn .boton__galeria--cualidades3, main .dieznueve__all--bg4 .btn .boton__galeria--cualidades4, main .diezocho__all--bg5 .btn .boton__galeria--cualidades5, main .diezsiete__all--bg6 .btn .boton__galeria--cualidades6, main .diezseis__all--bg7 .btn .boton__galeria--cualidades7, main .video__all--bg8 .btn .boton__galeria--cualidades8 {
   text-decoration: none;
