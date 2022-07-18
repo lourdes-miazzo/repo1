@@ -17,16 +17,13 @@ main{
                 }
                 .bio__text--modif{
                     color: rgb(75, 75, 75);
-                    font-size: $text__xxs;
-                    line-height: $lineh__s;
-                    @media (min-width: 768px){
-                        font-size: $text__xs ;
-                        line-height: $lineh__md;
-                    }
-                    @media (min-width: 992px){
-                        font-size: $text__s ;
-                        line-height: $lineh__lg;
-                    }
+                        @include estilo-txt ($text__xxs, $lineh__s);
+                        @media (min-width: 768px){
+                            @include estilo-txt ($text__xs, $lineh__md);
+                        }
+                        @media (min-width: 992px){
+                            @include estilo-txt ( $text__s,  $lineh__lg);
+                        }
                 }
             }
         }
@@ -67,16 +64,14 @@ main{
             div{
                 p{
                     color: rgb(195, 195, 195);
-                    font-size:  $text__xxs;
-                    line-height: $lineh__s;
-                    margin-left: 1rem; 
+                    @include estilo-txt ($text__xxs, $lineh__s);
                     @media (min-width: 768px){
-                        font-size: $text__xs;
+                        @include estilo-txt ($text__xs, $lineh__md);
                     }
                     @media (min-width: 992px){
-                        font-size: $text__s;
+                        @include estilo-txt ( $text__s,  $lineh__lg);
                     }
-                }
+            }
             }
         }
     }

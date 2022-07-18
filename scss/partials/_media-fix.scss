@@ -9,3 +9,35 @@ nav{
         }
     }
 }
+
+
+    
+.map__flex{
+    @media (max-width: 576px){   
+    display: flex;
+    flex-direction: column;
+} 
+}
+
+.map__bg--2{
+            .map__map--flex{
+                width: 90vw;
+                @media (min-width: 768px){  
+                    width: 70vw;
+                    height: 40vw;
+                }
+                @media (min-width: 992px){
+                    width: 30vw;
+                    height: 40vh;
+                }
+            }        
+            .map__img--flex{
+                width: 60vw;
+                @media (min-width: 768px){
+                    width: 40vw;
+                }
+                @media (min-width: 992px){
+                    width: 20vw;   
+                }
+            }
+}

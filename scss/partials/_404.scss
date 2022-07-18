@@ -9,7 +9,7 @@
     }
     @media (min-width: 768px){   
         background-image: url(../assets/imagenes/404/gl1.webp);
-        background-repeat: no-repeat;
+        background-repeat: repeat;
         background-size: cover;
     }
     main{
@@ -57,14 +57,15 @@
         }                
         footer{
             background-color: rgba(228,228,228, 0.8);  
-                padding: 1.5rem;
-                display: inline-block;
-                a{
-                    font-family: $main__font;
-                    text-decoration: none;
-                    color: rgb(58, 39, 64);
-                    font-weight: $bold__font;
-                } 
+            padding: 1.2rem;
+            display: inline-block;
+            border-radius: 0.6rem;
+            a{
+                font-family: $main__font;
+                text-decoration: none;
+                color: rgb(58, 39, 64);
+                font-weight: $bold__font;
+            } 
         }
     }
 }

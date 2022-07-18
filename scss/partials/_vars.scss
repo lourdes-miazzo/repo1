@@ -1,3 +1,39 @@
+//fonts
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;600;700&family=Roboto:wght@300;400;700&display=swap');
+
+//font family
+$main__font: Roboto, sans-serif;
+$title__font: oswald, sans-serif;
+
+//font size
+$text__superx--xxs: 0.4rem;
+$text__super--xxs: 0.6rem;
+$text__xxs: 0.8rem;
+$text__xs: 1rem;
+$text__s:1.2rem;
+$text__md: 1.4rem;
+$text__lg: 1.6rem;
+$text__xlg: 1.8rem;
+$text__xxlg: 1.9rem;
+
+
+//font weight
+$light__font: 400;
+$medium__font: 600;
+$bold__font: 700;
+
+//line-height
+$lineh__xs: 1rem;
+$lineh__s: 1.2rem;
+$lineh__md: 1.4rem;
+$lineh__lg: 1.6rem;
+
+//main colors
+$main__color--nav: rgba(228,228,228,0.5);
+$footer__color: rgb(105, 105, 105);
+
+
 //maps
 $grayscale-font:(
     "uno":rgb(95, 95, 95),
@@ -11,106 +47,8 @@ $grayscale-font:(
     );
 
 
-.boton__galeria--cualidades1{
-    text-decoration: none;
-    font-family: $main__font;
-    font-weight: $light__font;
-    font-size: $text__xxs;
-    color: map-get($map: $grayscale-font, $key:"uno");
-    margin-bottom: 2rem;
-    text-align: center;
-    &:hover{
-        cursor: pointer;
-    }
-    @media (min-width:992px){
-        font-size: $text__s;
-        margin-bottom: 3rem;
-    }
-}
-
-.boton__galeria--cualidades2{
-    @extend .boton__galeria--cualidades1;
-        color: map-get($map: $grayscale-font, $key:"dos");
-} 
-
-.boton__galeria--cualidades3{
-    @extend .boton__galeria--cualidades1;
-        color: map-get($map: $grayscale-font, $key:"tres");
-}
-
-.boton__galeria--cualidades4{
-    @extend .boton__galeria--cualidades1;
-        color: map-get($map: $grayscale-font, $key:"cuatro");
-}
-
-.boton__galeria--cualidades5{
-    @extend .boton__galeria--cualidades1;
-        color: map-get($map: $grayscale-font, $key:"cinco");
-}
-
-.boton__galeria--cualidades6{
-    @extend .boton__galeria--cualidades1;
-        color: map-get($map: $grayscale-font, $key:"seis");
-}
-
-.boton__galeria--cualidades7{
-    @extend .boton__galeria--cualidades1;
-        color: map-get($map: $grayscale-font, $key:"siete");
-}
-
-.boton__galeria--cualidades8{
-    @extend .boton__galeria--cualidades1;
-        color: map-get($map: $grayscale-font, $key:"ocho");
-}
-
-//animaciones obra
-
-.img-left{
-    @media (min-width: 768px){
-        &:hover{
-            transform: translateX(70px) scale(1.5);
-            transition: 0.4s;
-            cursor: pointer;
-        }
-    }
-}
-
-.img-right{
-    @media (min-width: 768px){
-        &:hover{
-            transform: translateX(-70px) scale(1.5);
-            transition: 0.4s;
-            cursor: pointer;
-        }
-    }
-}
-
-.imagenes-center{
-    @media (min-width: 992px){
-        &:hover{
-            transform: scale(1.5);
-            transition: 0.4s;
-            cursor: pointer;
-        }
-    }
-}
-
-.imagenes-left{
-    @media (min-width: 992px){
-        &:hover{
-            transform: translateX(80px) scale(1.5);
-            transition: 0.4s;
-            cursor: pointer;
-        }
-    }
-}
-
-.imagenes-right{
-    @media (min-width: 992px){
-        &:hover{
-            transform: translateX(-80px) scale(1.5);
-            transition: 0.4s;
-            cursor: pointer;
-        }
-    }
+//mixin
+@mixin estilo-txt ($font-sz, $line-hg) {
+    font-size: $font-sz;
+    line-height: $line-hg;
 }
