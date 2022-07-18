@@ -69,10 +69,10 @@ main{
                         .text__link--color{
                         color: rgb(44, 47, 92);
                         text-decoration: none;
-                        font-size: $text__super--xxs;
+                        font-size: $text__xs;
                         width: 80vw;
                         @media (min-width: 768px) {
-                            font-size: $text__xxs;
+                            font-size: $text__s;
                         }
                         @media (min-width: 992px) {
                             font-size: $text__md;
