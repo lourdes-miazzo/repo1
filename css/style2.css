@@ -356,17 +356,17 @@ main section .cv__all--bgdarkplus {
         font-size: 1.2rem;
         line-height: 1.6rem; } }
 
-main .veintedos__all--bg1 .boton__galeria--cualidades1, main .veinteuno__all--bg2 .boton__galeria--cualidades2, main .veinte__all--bg3 .boton__galeria--cualidades3, main .dieznueve__all--bg4 .boton__galeria--cualidades4, main .diezocho__all--bg5 .boton__galeria--cualidades5, main .diezsiete__all--bg6 .boton__galeria--cualidades6, main .diezseis__all--bg7 .boton__galeria--cualidades7, main .video__all--bg8 .boton__galeria--cualidades8 {
+main .veintedos__all--bg1 .btn .boton__galeria--cualidades1, main .veinteuno__all--bg2 .btn .boton__galeria--cualidades2, main .veinte__all--bg3 .btn .boton__galeria--cualidades3, main .dieznueve__all--bg4 .btn .boton__galeria--cualidades4, main .diezocho__all--bg5 .btn .boton__galeria--cualidades5, main .diezsiete__all--bg6 .btn .boton__galeria--cualidades6, main .diezseis__all--bg7 .btn .boton__galeria--cualidades7, main .video__all--bg8 .btn .boton__galeria--cualidades8 {
   text-decoration: none;
   font-family: Roboto, sans-serif;
   font-weight: 400;
   font-size: 0.8rem;
   margin-bottom: 2rem;
   text-align: center; }
-  main .veintedos__all--bg1 .boton__galeria--cualidades1:hover, main .veinteuno__all--bg2 .boton__galeria--cualidades2:hover, main .veinte__all--bg3 .boton__galeria--cualidades3:hover, main .dieznueve__all--bg4 .boton__galeria--cualidades4:hover, main .diezocho__all--bg5 .boton__galeria--cualidades5:hover, main .diezsiete__all--bg6 .boton__galeria--cualidades6:hover, main .diezseis__all--bg7 .boton__galeria--cualidades7:hover, main .video__all--bg8 .boton__galeria--cualidades8:hover {
+  main .veintedos__all--bg1 .btn .boton__galeria--cualidades1:hover, main .veinteuno__all--bg2 .btn .boton__galeria--cualidades2:hover, main .veinte__all--bg3 .btn .boton__galeria--cualidades3:hover, main .dieznueve__all--bg4 .btn .boton__galeria--cualidades4:hover, main .diezocho__all--bg5 .btn .boton__galeria--cualidades5:hover, main .diezsiete__all--bg6 .btn .boton__galeria--cualidades6:hover, main .diezseis__all--bg7 .btn .boton__galeria--cualidades7:hover, main .video__all--bg8 .btn .boton__galeria--cualidades8:hover {
     cursor: pointer; }
   @media (min-width: 992px) {
-    main .veintedos__all--bg1 .boton__galeria--cualidades1, main .veinteuno__all--bg2 .boton__galeria--cualidades2, main .veinte__all--bg3 .boton__galeria--cualidades3, main .dieznueve__all--bg4 .boton__galeria--cualidades4, main .diezocho__all--bg5 .boton__galeria--cualidades5, main .diezsiete__all--bg6 .boton__galeria--cualidades6, main .diezseis__all--bg7 .boton__galeria--cualidades7, main .video__all--bg8 .boton__galeria--cualidades8 {
+    main .veintedos__all--bg1 .btn .boton__galeria--cualidades1, main .veinteuno__all--bg2 .btn .boton__galeria--cualidades2, main .veinte__all--bg3 .btn .boton__galeria--cualidades3, main .dieznueve__all--bg4 .btn .boton__galeria--cualidades4, main .diezocho__all--bg5 .btn .boton__galeria--cualidades5, main .diezsiete__all--bg6 .btn .boton__galeria--cualidades6, main .diezseis__all--bg7 .btn .boton__galeria--cualidades7, main .video__all--bg8 .btn .boton__galeria--cualidades8 {
       font-size: 1.2rem;
       margin-bottom: 3rem; } }
 
@@ -409,55 +409,69 @@ main .veintedos__all--bg1 {
       main .veintedos__all--bg1 a .uno__titulo--caract, main .veintedos__all--bg1 .veinteuno__all--bg2 a .dos__titulo--caract, main .veinteuno__all--bg2 .veintedos__all--bg1 a .dos__titulo--caract, main .veintedos__all--bg1 .veinte__all--bg3 a .tres__titulo--caract, main .veinte__all--bg3 .veintedos__all--bg1 a .tres__titulo--caract, main .veintedos__all--bg1 .dieznueve__all--bg4 a .cuatro__titulo--caract, main .dieznueve__all--bg4 .veintedos__all--bg1 a .cuatro__titulo--caract, main .veintedos__all--bg1 .diezocho__all--bg5 a .cinco__titulo--caract, main .diezocho__all--bg5 .veintedos__all--bg1 a .cinco__titulo--caract, main .veintedos__all--bg1 .diezsiete__all--bg6 a .seis__titulo--caract, main .diezsiete__all--bg6 .veintedos__all--bg1 a .seis__titulo--caract, main .veintedos__all--bg1 .diezseis__all--bg7 a .siete__titulo--caract, main .diezseis__all--bg7 .veintedos__all--bg1 a .siete__titulo--caract, main .veintedos__all--bg1 .video__all--bg8 a .ocho__titulo--caract, main .video__all--bg8 .veintedos__all--bg1 a .ocho__titulo--caract {
         padding-top: 1rem;
         font-size: 1.8rem; } }
-  main .veintedos__all--bg1 .boton__galeria--cualidades1 {
-    color: #5f5f5f; }
+  main .veintedos__all--bg1 .btn {
+    border-color: #5f5f5f; }
+    main .veintedos__all--bg1 .btn .boton__galeria--cualidades1 {
+      color: #5f5f5f; }
 
 main .veinteuno__all--bg2 {
   background-color: #cccccc; }
   main .veinteuno__all--bg2 a .dos__titulo--caract {
-    color: #909090; }
-  main .veinteuno__all--bg2 .boton__galeria--cualidades2 {
-    color: #909090; }
+    color: #7d7d7d; }
+  main .veinteuno__all--bg2 .btn {
+    border-color: #7d7d7d; }
+    main .veinteuno__all--bg2 .btn .boton__galeria--cualidades2 {
+      color: #7d7d7d; }
 
 main .veinte__all--bg3 {
   background-color: silver; }
   main .veinte__all--bg3 a .tres__titulo--caract {
-    color: #9c9c9c; }
-  main .veinte__all--bg3 .boton__galeria--cualidades3 {
-    color: #9c9c9c; }
+    color: #878787; }
+  main .veinte__all--bg3 .btn {
+    border-color: #878787; }
+    main .veinte__all--bg3 .btn .boton__galeria--cualidades3 {
+      color: #878787; }
 
 main .dieznueve__all--bg4 {
   background-color: #b4b4b4; }
   main .dieznueve__all--bg4 a .cuatro__titulo--caract {
-    color: #a0a0a0; }
-  main .dieznueve__all--bg4 .boton__galeria--cualidades4 {
-    color: #a0a0a0; }
+    color: #919191; }
+  main .dieznueve__all--bg4 .btn {
+    border-color: #919191; }
+    main .dieznueve__all--bg4 .btn .boton__galeria--cualidades4 {
+      color: #919191; }
 
 main .diezocho__all--bg5 {
   background-color: #a8a8a8; }
   main .diezocho__all--bg5 a .cinco__titulo--caract {
-    color: #bebebe; }
-  main .diezocho__all--bg5 .boton__galeria--cualidades5 {
-    color: #bebebe; }
+    color: #c8c8c8; }
+  main .diezocho__all--bg5 .btn {
+    border-color: #c8c8c8; }
+    main .diezocho__all--bg5 .btn .boton__galeria--cualidades5 {
+      color: #c8c8c8; }
 
 main .diezsiete__all--bg6 {
   background-color: #9c9c9c; }
   main .diezsiete__all--bg6 a .seis__titulo--caract {
-    color: silver; }
-  main .diezsiete__all--bg6 .boton__galeria--cualidades6 {
-    color: silver; }
+    color: #d2d2d2; }
+  main .diezsiete__all--bg6 .btn {
+    border-color: #d2d2d2; }
+    main .diezsiete__all--bg6 .btn .boton__galeria--cualidades6 {
+      color: #d2d2d2; }
 
 main .diezseis__all--bg7 {
   background-color: #909090; }
   main .diezseis__all--bg7 a .siete__titulo--caract {
-    color: #cccccc; }
-  main .diezseis__all--bg7 .boton__galeria--cualidades7 {
-    color: #cccccc; }
+    color: gainsboro; }
+  main .diezseis__all--bg7 .btn {
+    border-color: gainsboro; }
+    main .diezseis__all--bg7 .btn .boton__galeria--cualidades7 {
+      color: gainsboro; }
 
 main .video__all--bg8 {
   background-color: #828282; }
   main .video__all--bg8 a .ocho__titulo--caract {
-    color: #d8d8d8; }
+    color: #e6e6e6; }
   main .video__all--bg8 .video-flex {
     display: flex;
     flex-direction: column;
@@ -474,8 +488,10 @@ main .video__all--bg8 {
         main .video__all--bg8 .video-flex .video {
           width: 70vw;
           height: 85vh; } }
-  main .video__all--bg8 .boton__galeria--cualidades8 {
-    color: #d8d8d8; }
+  main .video__all--bg8 .btn {
+    border-color: #e6e6e6; }
+    main .video__all--bg8 .btn .boton__galeria--cualidades8 {
+      color: #e6e6e6; }
 
 main .text__propio--all {
   background-color: silver; }

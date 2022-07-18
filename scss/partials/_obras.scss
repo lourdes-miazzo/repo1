@@ -101,10 +101,13 @@ main{
                 }
             }
         }
+        .btn{
+            border-color: map-get($map: $grayscale-font, $key:"uno"); 
             .boton__galeria--cualidades1{
                 @extend %boton-caract;
                 color: map-get($map: $grayscale-font, $key:"uno");
             }
+        }
     }
     .veinteuno__all--bg2{
         background-color: rgb(204, 204, 204);
@@ -114,10 +117,13 @@ main{
                 color: map-get($map: $grayscale-font, $key:"dos");
             }
         }
+        .btn{
+            border-color: map-get($map: $grayscale-font, $key:"dos"); 
             .boton__galeria--cualidades2{
                 @extend %boton-caract;
                     color: map-get($map: $grayscale-font, $key:"dos");
             } 
+        }
     }
     .veinte__all--bg3{
         background-color: rgb(192, 192, 192);
@@ -127,10 +133,13 @@ main{
                 color: map-get($map: $grayscale-font, $key:"tres");
             }
         }
+        .btn{
+            border-color: map-get($map: $grayscale-font, $key:"tres");
             .boton__galeria--cualidades3{
                 @extend %boton-caract;
                     color: map-get($map: $grayscale-font, $key:"tres");
             }
+        }
         
     }
     .dieznueve__all--bg4{
@@ -141,9 +150,12 @@ main{
                 color: map-get($map: $grayscale-font, $key:"cuatro");
             }
         }
-        .boton__galeria--cualidades4{
-            @extend %boton-caract;
-                color: map-get($map: $grayscale-font, $key:"cuatro");
+        .btn{
+            border-color: map-get($map: $grayscale-font, $key:"cuatro"); 
+            .boton__galeria--cualidades4{
+                @extend %boton-caract;
+                    color: map-get($map: $grayscale-font, $key:"cuatro");
+            }
         }
     }
     .diezocho__all--bg5{
@@ -154,9 +166,12 @@ main{
                 color: map-get($map: $grayscale-font, $key:"cinco");
             }
         }
-        .boton__galeria--cualidades5{
-            @extend %boton-caract;
-                color: map-get($map: $grayscale-font, $key:"cinco");
+        .btn{
+            border-color: map-get($map: $grayscale-font, $key:"cinco"); 
+            .boton__galeria--cualidades5{
+                @extend %boton-caract;
+                    color: map-get($map: $grayscale-font, $key:"cinco");
+            }
         }
     }
     .diezsiete__all--bg6{
@@ -167,9 +182,12 @@ main{
                 color: map-get($map: $grayscale-font, $key:"seis");
             }
         }
-        .boton__galeria--cualidades6{
-            @extend %boton-caract;
-                color: map-get($map: $grayscale-font, $key:"seis");
+        .btn{
+            border-color: map-get($map: $grayscale-font, $key:"seis"); 
+            .boton__galeria--cualidades6{
+                @extend %boton-caract;
+                    color: map-get($map: $grayscale-font, $key:"seis");
+            }
         }
     }
     .diezseis__all--bg7{
@@ -180,9 +198,12 @@ main{
                 color: map-get($map: $grayscale-font, $key:"siete");
             }
         }
-        .boton__galeria--cualidades7{
-            @extend %boton-caract;
-                color: map-get($map: $grayscale-font, $key:"siete");
+        .btn{
+            border-color: map-get($map: $grayscale-font, $key:"siete"); 
+            .boton__galeria--cualidades7{
+                @extend %boton-caract;
+                    color: map-get($map: $grayscale-font, $key:"siete");
+            }
         }
     }
     .video__all--bg8{
@@ -211,9 +232,12 @@ main{
                 }
             }
         }
-        .boton__galeria--cualidades8{
-            @extend %boton-caract;
-                color: map-get($map: $grayscale-font, $key:"ocho");
+        .btn{
+            border-color: map-get($map: $grayscale-font, $key:"ocho"); 
+            .boton__galeria--cualidades8{
+                @extend %boton-caract;
+                    color: map-get($map: $grayscale-font, $key:"ocho");
+            }
         }
     }
 }
