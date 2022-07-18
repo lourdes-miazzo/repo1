@@ -615,6 +615,24 @@ main .map__bg--2 {
     @media (min-width: 992px) {
       main .map__bg--2 a h2 {
         font-size: 1.8rem; } }
+  main .map__bg--2 .map__map--flex {
+    width: 90vw; }
+    @media (min-width: 768px) {
+      main .map__bg--2 .map__map--flex {
+        width: 70vw;
+        height: 40vw; } }
+    @media (min-width: 992px) {
+      main .map__bg--2 .map__map--flex {
+        width: 30vw;
+        height: 40vh; } }
+  main .map__bg--2 .map__img--flex {
+    width: 60vw; }
+    @media (min-width: 768px) {
+      main .map__bg--2 .map__img--flex {
+        width: 40vw; } }
+    @media (min-width: 992px) {
+      main .map__bg--2 .map__img--flex {
+        width: 20vw; } }
 
 @media (max-width: 304px) {
   nav .nav__logo--ajuste {
@@ -628,26 +646,6 @@ main .map__bg--2 {
   .map__flex {
     display: flex;
     flex-direction: column; } }
-
-.map__bg--2 .map__map--flex {
-  width: 90vw; }
-  @media (min-width: 768px) {
-    .map__bg--2 .map__map--flex {
-      width: 70vw;
-      height: 40vw; } }
-  @media (min-width: 992px) {
-    .map__bg--2 .map__map--flex {
-      width: 30vw;
-      height: 40vh; } }
-
-.map__bg--2 .map__img--flex {
-  width: 60vw; }
-  @media (min-width: 768px) {
-    .map__bg--2 .map__img--flex {
-      width: 40vw; } }
-  @media (min-width: 992px) {
-    .map__bg--2 .map__img--flex {
-      width: 20vw; } }
 
 .back__especial--404 {
   background-image: url(../assets/imagenes/404/gl5.webp);
