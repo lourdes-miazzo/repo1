@@ -223,6 +223,7 @@ nav {
       .animated .container-fluid a img {
         width: 7rem; } }
   .animated .container-fluid a h1 {
+    color: #373435;
     font-size: 1.2rem; }
     @media (min-width: 768px) {
       .animated .container-fluid a h1 {
@@ -651,12 +652,12 @@ main .map__bg--2 {
   background-image: url(../assets/imagenes/404/gl5.webp);
   background-repeat: repeat;
   background-size: cover; }
-  @media (min-width: 442px) {
+  @media (min-width: 768px) {
     .back__especial--404 {
       background-image: url(../assets/imagenes/404/gl4.webp);
       background-repeat: repeat;
       background-size: contain; } }
-  @media (min-width: 768px) {
+  @media (min-width: 992px) {
     .back__especial--404 {
       background-image: url(../assets/imagenes/404/gl1.webp);
       background-repeat: repeat;
@@ -677,6 +678,7 @@ main .map__bg--2 {
         .back__especial--404 main section .color-fondo {
           padding: 5rem; } }
       .back__especial--404 main section .color-fondo h1 {
+        color: #373435;
         font-size: 1.6rem; }
         @media (min-width: 768px) {
           .back__especial--404 main section .color-fondo h1 {
@@ -684,6 +686,15 @@ main .map__bg--2 {
         @media (min-width: 992px) {
           .back__especial--404 main section .color-fondo h1 {
             font-size: 1.9rem; } }
+      .back__especial--404 main section .color-fondo p {
+        color: #373435;
+        font-size: 0.8rem; }
+        @media (min-width: 768px) {
+          .back__especial--404 main section .color-fondo p {
+            font-size: 1rem; } }
+        @media (min-width: 992px) {
+          .back__especial--404 main section .color-fondo p {
+            font-size: 1.2rem; } }
   .back__especial--404 div {
     display: flex;
     justify-content: flex-end;
