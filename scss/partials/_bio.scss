@@ -68,10 +68,12 @@ main{
                 p{
                     color: rgb(195, 195, 195);
                     margin-left: 1.8rem;
+                    margin-right: 1.8rem;
                     @include estilo-txt ($text__xxs, $lineh__s);
                     @media (min-width: 768px){
                         @include estilo-txt ($text__xs, $lineh__md);
                         margin-left: 2.5rem;
+                        margin-right: 2.5rem;
                     }
                     @media (min-width: 992px){
                         @include estilo-txt ( $text__s,  $lineh__lg);
