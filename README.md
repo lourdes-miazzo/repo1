@@ -1,0 +1,2 @@
+En la última clase vimos mi página y en la pantalla contacto no desplegaba el boton hamburguesa. Después lo probé yo y funcionaba, y por las dudas me fijé si estaba bien cargada la librería y veo todo bien.
+Para acceder a la página error 404 hay q hacer click en +más info ubicado en footer de página index y contacto
