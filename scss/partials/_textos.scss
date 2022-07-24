@@ -4,6 +4,7 @@ main{
     .text__propio--all{
         background-color:
         rgb(192, 192, 192);
+        }
         section{
             a{
                 h2{
@@ -37,7 +38,19 @@ main{
                     }
                     @media (min-width: 992px){
                         @include estilo-txt ($text__s, $lineh__lg);
+                    }
+            }
+            img{
+                width: 60%;
+                display: block; 
+                margin-left: auto;
+                margin-right: auto;
+                @media (min-width: 768px){
+                    width: 70%;
                 }
+                @media (min-width: 992px){
+                    width: 80%;
+                } 
             }
         }
     }
@@ -96,15 +109,41 @@ main{
                     @include estilo-txt ($text__xxs, $lineh__xs);
                         @media (min-width: 768px){
                             @include estilo-txt ($text__xs, $lineh__md);
+                            margin-right: 2rem;
                         }
                         @media (min-width: 992px){
                             @include estilo-txt ($text__s, $lineh__lg);
+                            margin-right: 3rem;
                     }
                     .subt__text--block{
                     display: block;
                     }
                 }
+                .img1{
+                    width: 50%;
+                    display: block; 
+                    margin-left: auto;
+                    margin-right: auto;
+                    @media (min-width: 768px){
+                        width: 80%;
+                    }
+                    @media (min-width: 992px){
+                        width: 70%;
+                    } 
+                } 
+                
+                .img2{
+                    width: 70%;
+                    display: block; 
+                    margin-left: auto;
+                    margin-right: auto;
+                    @media (min-width: 768px){
+                        width: 70%;
+                    }
+                    @media (min-width: 992px){
+                        width: 80%;
+                    } 
+                }
             }
         }
     }
-}

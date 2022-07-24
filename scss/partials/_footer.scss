@@ -28,13 +28,20 @@
         }
         .info__boton--cambios{
             text-decoration: none;
-            color: rgb(228, 228, 228);
+            color:  rgb(2, 2, 2);
             margin-left: 1rem;
             padding: 0.2rem;
             font-family: $main__font;
-            background-color:rgba(115, 115, 115, 0.5);
+            background-color:rgba(125, 125, 125, 0.6);
             border-radius: 3px;
-        }  
+            font-size: $text__xs;
+            @media (min-width: 768px){   
+                font-size: $text__s;
+            }  
+            @media (min-width: 992px){   
+                font-size: $text__md;
+            }
+        }
     }
 
 }
