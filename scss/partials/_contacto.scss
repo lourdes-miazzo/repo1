@@ -36,28 +36,35 @@ main{
                     font-size:$text__lg;    
                 }
                 @media (min-width: 992px){
-                    font-size: $text__xlg;   
+                    font-size:$text__xlg; 
+                    margin-left: 4rem;
                 }
             }
         }
         .map__map--flex{
             width: 90vw;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: auto;
+            margin-bottom: auto;
             @media (min-width: 768px){  
-                width: 70vw;
+                width: 90vw;
                 height: 40vw;
             }
             @media (min-width: 992px){
-                width: 30vw;
-                height: 40vh;
+                width: 40vw;
+                height: 50vh;
+                margin-left: 4rem;
             }
         }        
         .map__img--flex{
-            width: 60vw;
+            width: 60vw; 
             @media (min-width: 768px){
-                width: 40vw;
+                width: 55vw;
             }
             @media (min-width: 992px){
-                width: 20vw;   
+                width: 30vw;   
             }
         }
     }
