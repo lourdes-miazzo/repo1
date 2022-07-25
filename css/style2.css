@@ -672,7 +672,7 @@ main .map__bg--2 {
     @media (min-width: 992px) {
       main .map__bg--2 a h2 {
         font-size: 1.8rem;
-        margin-left: 4rem; } }
+        margin-bottom: 5rem; } }
   main .map__bg--2 .map__map--flex {
     width: 90vw;
     display: block;
