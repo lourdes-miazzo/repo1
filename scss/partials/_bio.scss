@@ -24,7 +24,7 @@ main{
                             margin-left: 2.5rem;
                         }
                         @media (min-width: 992px){
-                            @include estilo-txt ( $text__s,  $lineh__lg);
+                            @include estilo-txt ( $text__paragraph,  $lineh__lg);
                             margin-left: 2.7rem;
                         }
                 }
@@ -33,7 +33,7 @@ main{
     }
     section{
         .cv__all--bgdarkplus{
-            background-color: rgb(120, 120, 120);
+            background-color: rgb(110, 110, 110);
             div{
                 a{
                     #cv-titulo-positioncolor{
@@ -56,11 +56,11 @@ main{
                     margin-left: 1.2rem;
                 }
                 @media (min-width: 768px){
-                    font-size: $text__s;
+                    font-size: $text__xs;
                     margin-left: 2.5rem;
                 }
                 @media (min-width: 992px){
-                    font-size: $text__md;
+                    font-size: $text__s;
                     margin-left: 2.7rem;
                 }
             }
@@ -76,7 +76,7 @@ main{
                         margin-right: 2.5rem;
                     }
                     @media (min-width: 992px){
-                        @include estilo-txt ( $text__s,  $lineh__lg);
+                        @include estilo-txt ( $text__paragraph,  $lineh__lg);
                         margin-left: 2.7rem;
                     }
             }

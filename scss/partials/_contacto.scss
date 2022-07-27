@@ -1,30 +1,32 @@
 main{
+    section{
     .contact__bg--1{
         background-color: rgb(190, 190, 190);
-                        a{
-                            h2{
-                                color: rgb(60, 60, 60);
-                                font-size: $text__s;
-                                @media (min-width: 768px){
-                                    font-size:$text__lg;   
-                                }
-                                @media (min-width: 992px){
-                                    font-size: $text__xlg; 
-                                }
-                            }
-                        }
-                        section{
-                            form{
-                                font-family: $main__font;
-                                .color-boton{
-                                    margin-left: 1rem;
-                                    background-color: rgb(235,235,235);
-                                }
-                                .form-control{
-                                    background-color: rgb(235, 235, 235);;
-                                }
-                            }
-                        }
+            a{
+                h2{
+                    color: rgb(60, 60, 60);
+                    font-size: $text__s;
+                    @media (min-width: 768px){
+                        font-size:$text__lg;   
+                    }
+                    @media (min-width: 992px){
+                        font-size: $text__xlg; 
+                    }
+                }
+            }
+            form{
+                font-family: $main__font;
+                margin-left: 0.2rem;
+                margin-right: 0.2rem;
+                .color-boton{
+                    margin-left: 1rem;
+                    background-color: rgb(235,235,235);
+                }
+                .form-control{
+                    background-color: rgb(235, 235, 235);
+                }
+            }
+        }
     }
     .map__bg--2{
         background-color: rgb(140, 140, 140);
@@ -37,34 +39,32 @@ main{
                 }
                 @media (min-width: 992px){
                     font-size:$text__xlg; 
-                    margin-bottom: 5rem;
                 }
             }
         }
-        .map__map--flex{
-            width: 90vw;
-            display: block;
-            margin-left: auto;
-            margin-right: auto;
-            margin-top: auto;
-            margin-bottom: auto;
-            @media (min-width: 768px){  
+        .map__flex{
+            .map__map--flex{
                 width: 90vw;
-                height: 40vw;
-            }
-            @media (min-width: 992px){
-                width: 40vw;
-                height: 50vh;
-                margin-left: 4rem;
-            }
-        }        
-        .map__img--flex{
-            width: 60vw; 
-            @media (min-width: 768px){
-                width: 55vw;
-            }
-            @media (min-width: 992px){
-                width: 30vw;   
+                margin-left: auto;
+                margin-right: auto;
+                @media (min-width: 768px){  
+                    width: 90vw;
+                    height: 40vw;
+                }
+                @media (min-width: 992px){
+                    width: 40vw;
+                    height: 50vh;
+                    margin-left: 4rem;
+                }
+            }        
+            .map__img--flex{
+                width: 60vw; 
+                @media (min-width: 768px){
+                    width: 55vw;
+                }
+                @media (min-width: 992px){
+                    width: 30vw;   
+                }
             }
         }
     }

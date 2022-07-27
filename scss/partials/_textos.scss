@@ -37,7 +37,7 @@ main{
                         @include estilo-txt ($text__xs, $lineh__md);
                     }
                     @media (min-width: 992px){
-                        @include estilo-txt ($text__s, $lineh__lg);
+                        @include estilo-txt ($text__paragraph, $lineh__lg);
                     }
             }
             img{
@@ -55,7 +55,7 @@ main{
         }
     }
     .text__otros--all{
-        background-color: rgb(120, 120, 120);
+        background-color: rgb(110, 110, 110);
         section{
             a{
                 h2{
@@ -112,7 +112,7 @@ main{
                             margin-right: 2rem;
                         }
                         @media (min-width: 992px){
-                            @include estilo-txt ($text__s, $lineh__lg);
+                            @include estilo-txt ($text__paragraph, $lineh__lg);
                             margin-right: 3rem;
                     }
                     .subt__text--block{
