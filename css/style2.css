@@ -724,57 +724,57 @@ main .map__bg--2 {
       background-image: url(../assets/imagenes/404/gl1.webp);
       background-repeat: repeat;
       background-size: cover; } }
-  .back__especial--404 main section {
+  .back__especial--404 main {
     display: flex;
     justify-content: center;
     margin-top: 4rem; }
     @media (min-width: 768px) {
-      .back__especial--404 main section {
+      .back__especial--404 main {
         margin-top: 8rem;
         margin-right: 2rem; } }
-    .back__especial--404 main section .color-fondo {
+    .back__especial--404 main .color-fondo {
       background-color: rgba(228, 228, 228, 0.9);
       display: inline-block;
       padding: 2rem; }
       @media (min-width: 768px) {
-        .back__especial--404 main section .color-fondo {
+        .back__especial--404 main .color-fondo {
           padding: 5rem; } }
-      .back__especial--404 main section .color-fondo h1 {
+      .back__especial--404 main .color-fondo h1 {
         color: #373435;
         font-size: 1.6rem; }
         @media (min-width: 768px) {
-          .back__especial--404 main section .color-fondo h1 {
+          .back__especial--404 main .color-fondo h1 {
             font-size: 1.8rem; } }
         @media (min-width: 992px) {
-          .back__especial--404 main section .color-fondo h1 {
+          .back__especial--404 main .color-fondo h1 {
             font-size: 1.9rem; } }
-      .back__especial--404 main section .color-fondo p {
+      .back__especial--404 main .color-fondo p {
         color: #373435;
         font-size: 0.8rem; }
         @media (min-width: 768px) {
-          .back__especial--404 main section .color-fondo p {
+          .back__especial--404 main .color-fondo p {
             font-size: 1rem; } }
         @media (min-width: 992px) {
-          .back__especial--404 main section .color-fondo p {
+          .back__especial--404 main .color-fondo p {
             font-size: 1.2rem; } }
-  .back__especial--404 div {
+  .back__especial--404 footer {
     display: flex;
     justify-content: flex-end;
     margin-right: 0.5rem;
     margin-top: 12rem; }
     @media (min-width: 768px) {
-      .back__especial--404 div {
+      .back__especial--404 footer {
         margin-right: 1rem;
         margin-top: 7rem; } }
     @media (min-width: 992px) {
-      .back__especial--404 div {
+      .back__especial--404 footer {
         margin-top: 3rem; } }
-    .back__especial--404 div footer {
+    .back__especial--404 footer div {
       background-color: rgba(228, 228, 228, 0.8);
       padding: 1.2rem;
       display: inline-block;
       border-radius: 0.6rem; }
-      .back__especial--404 div footer a {
+      .back__especial--404 footer div a {
         font-family: Roboto, sans-serif;
         text-decoration: none;
         color: #3a2740;
